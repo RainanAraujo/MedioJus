@@ -1,127 +1,34 @@
 import React from 'react';
-import { Text, View, TouchableOpacity, StyleSheet, StatusBar, ScrollView } from 'react-native';
+import { Text, View, TouchableOpacity, StyleSheet, StatusBar, ScrollView, FlatList, SafeAreaView } from 'react-native';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+
+const DATA = [
+    {
+        name: "Direito Constitucional"
+    },
+    {
+        name: "Direito do Trabalho"
+    }
+]
 
 export default function Home({ navigation }) {
     return (
         <>
-            <ScrollView showsVerticalScrollIndicator={false} style={{ flex: 1, backgroundColor: "#fff" }}>
-                <StatusBar barStyle="light-content" backgroundColor="#044BD9"></StatusBar>
-                <View style={styles.container}>
-                    <View style={styles.layout}>
-                        <View style={styles.horizontalView}>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Direito Constitucional
+            <StatusBar barStyle="light-content" backgroundColor="#044BD9"></StatusBar>
+            <FlatList
+                numColumns={2}
+                data={DATA}
+                renderItem={({ item }) =>
+                    <View>
+                        <TouchableOpacity
+                            onPress={() => navigation.navigate("Home")}>
+                            <Text style={styles.textButtonOption}>
+                                {item.name}
                             </Text>
-                                </TouchableOpacity>
-                            </View>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Direito do Tabalho
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                        </View>
-                        <View style={styles.horizontalView}>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Direito do Consumidor
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Direito Penal
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                        </View>
-                        <View style={styles.horizontalView}>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Direito Previdenciário
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Direito de Família
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                        </View>
-                        <View style={styles.horizontalView}>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Lei do Estágio
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Estatuto da Criança e do Adolescente - ECA
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                        </View>
-                        <View style={styles.horizontalView}>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Menor Aprendiz
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                            <View>
-                                <TouchableOpacity
-                                    style={styles.buttonOption}
-                                    onPress={() => navigation.navigate("Home")}
-                                >
-                                    <Text style={styles.textButtonOption}>
-                                        Curiosidades
-                            </Text>
-                                </TouchableOpacity>
-                            </View>
-                        </View>
-                    </View>
-                </View>
-            </ScrollView>
+                        </TouchableOpacity>
+                    </View>}
+                keyExtractor={item => item.name}
+            />
         </>
     );
 }
