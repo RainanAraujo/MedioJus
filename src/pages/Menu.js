@@ -15,28 +15,37 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import data from '../../assets/data';
+import {SharedElement} from 'react-navigation-shared-element';
 
 export default function Menu({navigation}) {
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#044BD9"></StatusBar>
-      <FlatList
-        contentContainerStyle={{paddingTop: 10}}
-        numColumns={2}
-        data={data}
-        renderItem={({item}) => (
-          <View style={styles.buttonOption}>
-            <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
-              <View style={styles.imageView}>
-                <Image source={item.icon} />
-              </View>
+      <StatusBar barStyle="light-content" backgroundColor="#0455BF" />
+      <View style={styles.container}>
+        <View style={styles.content}>
+          <Text style={styles.textTitle}>Tópicos</Text>
+          <FlatList
+            contentContainerStyle={styles.flatList}
+            numColumns={2}
+            data={data}
+            renderItem={({item}) => (
+              <View style={styles.buttonOption}>
+                <TouchableOpacity
+                  onPress={() => navigation.navigate('Page', {selected: item})}>
+                  <SharedElement
+                    id={`item.${item.name}.photo`}
+                    style={styles.imageView}>
+                    <Image source={item.icon} />
+                  </SharedElement>
 
-              <Text style={styles.textButtonOption}>{item.name}</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-        keyExtractor={(item) => item.name}
-      />
+                  <Text style={styles.textButtonOption}>{item.name}</Text>
+                </TouchableOpacity>
+              </View>
+            )}
+            keyExtractor={(item) => item.name}
+          />
+        </View>
+      </View>
     </>
   );
 }
@@ -44,13 +53,29 @@ export default function Menu({navigation}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#0455BF',
+  },
+  content: {
     justifyContent: 'center',
+    backgroundColor: '#F2F2F2',
     alignItems: 'center',
-    backgroundColor: '#fafafa',
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30,
+  },
+  textTitle: {
+    fontFamily: 'Roboto-Medium',
+    fontSize: 18,
+    width: wp('100%'),
+    textAlign: 'center',
+    color: '#656565',
+    marginVertical: 25,
+  },
+  flatList: {
+    flexGrow: 1,
   },
   buttonOption: {
-    width: wp('47%'),
-    height: wp('47%'),
+    width: wp('43%'),
+    height: wp('43%'),
     backgroundColor: '#fff',
     marginBottom: wp('3%'),
     justifyContent: 'center',
@@ -58,7 +83,7 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     shadowColor: '#f5f5f5',
     elevation: 1,
-    marginLeft: wp('2%'),
+    margin: wp('1%'),
   },
   textButtonOption: {
     color: '#000',

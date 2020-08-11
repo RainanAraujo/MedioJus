@@ -16,7 +16,7 @@ import sobre from '../../assets/images/sobre.png';
 export default function About({navigation}) {
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#044BD9"></StatusBar>
+      <StatusBar barStyle="light-content" backgroundColor="#0455BF"></StatusBar>
       <View style={styles.container}>
         <View style={styles.imageView}>
           <Image source={sobre} />
