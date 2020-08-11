@@ -3,7 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {Image, TouchableOpacity} from 'react-native';
 import {createStackNavigator, HeaderTitle} from '@react-navigation/stack';
 import Start from './pages/Start';
-import Home from './pages/Home';
+import Menu from './pages/Menu';
 import About from './pages/About';
 import logored from '../assets/images/namelogo.png';
 import {
@@ -27,8 +27,8 @@ export default function Routes() {
           }}
         />
         <AppStack.Screen
-          name="Home"
-          component={Home}
+          name="Menu"
+          component={Menu}
           options={({navigation}) => ({
             headerTitleAlign: 'center',
             headerLeft: () => null,

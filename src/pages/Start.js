@@ -13,7 +13,7 @@ import anim from '../../assets/animations/anim.json';
 export default function Start({navigation}) {
   useEffect(() => {
     setTimeout(() => {
-      navigation.replace('Home');
+      navigation.replace('Menu');
     }, 1100);
   });
 

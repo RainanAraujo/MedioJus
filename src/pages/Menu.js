@@ -16,7 +16,7 @@ import {
 } from 'react-native-responsive-screen';
 import data from '../../assets/data';
 
-export default function Home({navigation}) {
+export default function Menu({navigation}) {
   return (
     <>
       <StatusBar barStyle="light-content" backgroundColor="#044BD9"></StatusBar>
@@ -26,7 +26,7 @@ export default function Home({navigation}) {
         data={data}
         renderItem={({item}) => (
           <View style={styles.buttonOption}>
-            <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+            <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
               <View style={styles.imageView}>
                 <Image source={item.icon} />
               </View>
