@@ -15,6 +15,10 @@ export default Page = ({navigation, route}) => {
       <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
         <Text style={{fontSize: 50, color: 'blue'}}>Voltar</Text>
       </TouchableOpacity>
+      <Text style={{fontSize: 30, color: 'black'}}>{name}</Text>
+      {content.map((paragraph) => (
+        <Text style={{fontSize: 10, color: 'black'}}>{paragraph}</Text>
+      ))}
     </>
   );
 };
