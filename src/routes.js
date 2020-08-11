@@ -35,13 +35,6 @@ export default function Routes() {
         <AppStack.Screen
           name="Menu"
           component={Menu}
-          sharedElementsConfig={(route, otherRoute, showing) => {
-            if (otherRoute.name == 'Page') {
-              const {name} = otherRoute.params.selected;
-              console.log(name);
-              return [{id: `item.${name}.photo`, animation: 'move'}];
-            }
-          }}
           options={({navigation}) => ({
             headerTitleAlign: 'center',
             headerLeft: () => null,
@@ -77,8 +70,8 @@ export default function Routes() {
           name="Page"
           component={Page}
           sharedElementsConfig={(route, otherRoute, showing) => {
-            const {name} = route.params.selected;
-            return [{id: `item.${name}.photo`, animation: 'move'}];
+            const {id} = route.params.selected;
+            return [`item.${id}.photo`];
           }}
           options={{
             title: 'Page',
