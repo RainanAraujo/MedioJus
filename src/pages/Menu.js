@@ -28,15 +28,17 @@ export default function Menu({navigation}) {
             contentContainerStyle={styles.scrollView}
             showsVerticalScrollIndicator={false}>
             <View style={styles.scrollContent}>
-              {data.map((item) => {
+              {data.map((item, index) => {
                 return (
                   <View key={item.name} style={styles.buttonOption}>
                     <TouchableOpacity
                       onPress={() =>
-                        navigation.navigate('Page', {selected: item})
+                        navigation.navigate('Page', {
+                          selected: {...item, id: index},
+                        })
                       }>
                       <SharedElement
-                        id={`item.${item.name}.photo`}
+                        id={`item.${index}.photo`}
                         style={styles.imageView}>
                         <Image source={item.icon} />
                       </SharedElement>
