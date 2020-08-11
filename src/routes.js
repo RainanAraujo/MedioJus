@@ -1,7 +1,6 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {Image, TouchableOpacity} from 'react-native';
-import {createStackNavigator, HeaderTitle} from '@react-navigation/stack';
 import Start from './pages/Start';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -12,7 +11,13 @@ import {
 } from 'react-native-responsive-screen';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faInfoCircle} from '@fortawesome/free-solid-svg-icons';
-const AppStack = createStackNavigator();
+import {createSharedElementStackNavigator} from 'react-navigation-shared-element';
+import {screensEnabled, enableScreens} from 'react-native-screens';
+import Page from './pages/Page';
+
+enableScreens();
+
+const AppStack = createSharedElementStackNavigator();
 
 export default function Routes() {
   return (
@@ -29,6 +34,13 @@ export default function Routes() {
         <AppStack.Screen
           name="Home"
           component={Home}
+          sharedElementsConfig={(route, otherRoute, showing) => {
+            if (otherRoute.name == 'Page') {
+              const {name} = otherRoute.params.selected;
+              console.log(name);
+              return [{id: `item.${name}.photo`, animation: 'move'}];
+            }
+          }}
           options={({navigation}) => ({
             headerTitleAlign: 'center',
             headerLeft: () => null,
@@ -48,6 +60,23 @@ export default function Routes() {
             ),
             headerTitle: () => <Image source={logored} />,
           })}
+        />
+        <AppStack.Screen
+          name="Page"
+          component={Page}
+          sharedElementsConfig={(route, otherRoute, showing) => {
+            const {name} = route.params.selected;
+            return [{id: `item.${name}.photo`, animation: 'move'}];
+          }}
+          options={{
+            title: 'Page',
+            headerTitleAlign: 'center',
+            headerTintColor: '#ffffff',
+            headerStyle: {
+              backgroundColor: '#044BD9',
+            },
+            headerTitleAlign: 'left',
+          }}
         />
         <AppStack.Screen
           name="About"

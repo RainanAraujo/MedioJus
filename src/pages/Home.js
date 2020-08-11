@@ -15,6 +15,7 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import data from '../../assets/data';
+import {SharedElement} from 'react-navigation-shared-element';
 
 export default function Home({navigation}) {
   return (
@@ -26,10 +27,13 @@ export default function Home({navigation}) {
         data={data}
         renderItem={({item}) => (
           <View style={styles.buttonOption}>
-            <TouchableOpacity onPress={() => navigation.navigate('Home')}>
-              <View style={styles.imageView}>
+            <TouchableOpacity
+              onPress={() => navigation.navigate('Page', {selected: item})}>
+              <SharedElement
+                id={`item.${item.name}.photo`}
+                style={styles.imageView}>
                 <Image source={item.icon} />
-              </View>
+              </SharedElement>
 
               <Text style={styles.textButtonOption}>{item.name}</Text>
             </TouchableOpacity>
