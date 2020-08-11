@@ -12,13 +12,6 @@ import sobre from '../images/curiosidades.png';
 
 export default [
   {
-    name: 'Sobre',
-    icon: sobre,
-    content: [
-      'Este aplicativo tem por objetivo possibilitar o contato dos discentes de Ensino Médio com orientações ou conhecimentos jurídicos, especialmente direitos e deveres, que contribuirão para a formação, cada vez mais cedo, de cidadãos ativos, críticos, lúcidos e conscientes de seu papel na construção de uma sociedade mais livre, justa e solidária.',
-    ],
-  },
-  {
     name: 'Direito Constitucional',
     icon: constitucional,
     content: [
@@ -438,9 +431,10 @@ export default [
     ],
   },
   {
-    name: 'Lei 11.340 de 7 de Agosto de 2006: Lei Maria da Penha',
+    name: 'Outras Legislações',
     icon: familia,
     content: [
+      'Lei 11.340 de 7 de Agosto de 2006: Lei Maria da Penha',
       '- Tem por objetivo coibir e prevenir a violência doméstica e familiar contra a mulher.',
       '- A Lei nº 11.340/2006 leva o nome de uma mulher, Maria da Penha Maia Fernandes, que ficou paraplégica após ter sido vítima de tentativas de assassinato pelo seu marido. A farmacêutica e bioquímica cearense tornou-se o símbolo da luta para que o Brasil tivesse uma lei que contribuísse para a diminuição da violência doméstica e familiar contra a mulher no Brasil.',
       '- Violência doméstica e familiar contra a mulher, segundo a lei, é qualquer ação ou omissão baseada no gênero que lhe cause morte, lesão, sofrimento físico, sexual ou psicológico e dano moral ou patrimonial.',
@@ -473,13 +467,7 @@ export default [
       '- Lei 13.871 de 17 de setembro de 2019: altera a Lei Maria da Pena para dispor sobre a responsabilidade do agressor pelo ressarcimento dos custos relacionados aos serviços de saúde prestados pelo Sistema Único de Saúde (SUS) às vítimas de violência doméstica e familiar e aos dispositivos de segurança por elas utilizados.',
       '- Lei 13.882 de 8 de outubro de 2019: altera a Lei Maria da Penha para garantir a matrícula dos dependentes da mulher vítima de violência doméstica e familiar em instituição de educação básica mais próxima de seu domicílio.',
       '- Lei 13.894 de 29 de outubro de 2019: altera a Lei Maria da Penha para prever a competência dos Juizados de Violência Doméstica e Familiar contra a Mulher para a ação de divórcio, separação, anulação de casamento ou dissolução de união estável nos casos de violência e para tornar obrigatória a informação às vítimas acerca da possibilidade de os serviços de assistência judiciária ajuizarem as ações mencionadas; e altera a Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), para prever a competência do foro do domicílio da vítima de violência doméstica e familiar para a ação de divórcio, separação judicial, anulação de casamento e reconhecimento da união estável a ser dissolvida, para determinar a intervenção obrigatória do Ministério Público nas ações de família em que figure como parte vítima de violência doméstica e familiar, e para estabelecer a prioridade de tramitação dos procedimentos judiciais em que figure como parte vítima de violência doméstica e familiar.',
-    ],
-  },
-  {
-    name:
       'Lei nº 8.069 de 13 de Julho de 1990: Estatuto da Criança e do Adolescente',
-    icon: eca,
-    content: [
       'Para a Lei, considera-se criança a pessoa até 12 anos incompletos e adolescente aquela entre 12 e 18.',
       'A criança e o adolescente possuem todos os direitos fundamentais inerentes à pessoa humana, tendo todas as garantias para o desenvolvimento físico, mental, moral, espiritual e social, em condições de liberdade e de dignidade, sem discriminação de nascimento, situação familiar, idade, sexo, raça, etnia ou cor, religião ou crença, deficiência, condição pessoal de desenvolvimento e aprendizagem, condição econômica, ambiente social, região e local de moradia ou outra condição que diferencie as pessoas, as famílias ou a comunidade em que vivem.',
       'Adoção: é o procedimento legal no qual uma criança ou um adolescente se tornam filhos de uma pessoa ou de um casal, com os mesmos direitos que um filho biológico tem.',
@@ -490,12 +478,7 @@ export default [
       'Também prevê sanções para aquelas crianças e adolescentes que cometem infrações. Estão previstas medidas socioeducativas como: advertência, obrigação de reparar o dano, prestação de serviços à comunidade, liberdade assistida, inserção em regime de semi-liberdade, até a internação. Esta não deve durar mais de três anos e ser realizada em estabelecimento adequado que vise a recuperação pessoal.',
       'qualquer pessoa poderá denunciar aos órgãos que compõem o Sistema de Garantia de Direitos (SGD) (Conselho Tutelar de sua cidade, o Ministério Público, o Juizado da Infância e Juventude e a Delegacia Especializada) - notícia de fato que constitua ameaça ou violação dos direitos das crianças e dos adolescentes, por exemplo, maus-tratos, castigos imoderados, abusos sexuais ou qualquer outro tipo de violência.',
       'DISQUE 100 - Disque-denúncia para o combate contra a violência e abuso sexual contra crianças e adolescentes (ligação gratuita de qualquer lugar do Brasil). Qualquer denúncia pode também procurar p Conselho Tutelar do seu município e/ou o Ministério Público.',
-    ],
-  },
-  {
-    name: 'Lei nº 13.834, de 4 de Junho de 2019: Lei das Fake News Eleitorais',
-    icon: estagio,
-    content: [
+      'Lei nº 13.834, de 4 de Junho de 2019: Lei das Fake News Eleitorais',
       'Altera o Código Eleitoral para tipificar o crime de denunciação caluniosa com finalidade eleitoral.',
       'Art. 326-A.  Dar causa à instauração de investigação policial, de processo judicial, de investigação administrativa, de inquérito civil ou ação de improbidade administrativa, atribuindo a alguém a prática de crime ou ato infracional de que o sabe inocente, com finalidade eleitoral:',
       'Pena - reclusão, de 2 (dois) a 8 (oito) anos, e multa.',

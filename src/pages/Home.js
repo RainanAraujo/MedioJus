@@ -22,11 +22,9 @@ export default function Home({navigation}) {
       <View style={styles.container}>
         <Image source={homeImage} style={styles.homeImage} />
         <View>
-          <Text style={styles.textTitle}>
-            Aprenda sobre seus direitos judiciais.
-          </Text>
+          <Text style={styles.textTitle}>Descubra seus direitos.</Text>
           <Text style={styles.textSubTitle}>
-            Informações designadas para alunos do ensino médio.
+            Conteúdos destinados aos alunos de Ensino Médio.
           </Text>
         </View>
 

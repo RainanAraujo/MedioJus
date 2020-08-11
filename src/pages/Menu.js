@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 30,
   },
   scrollContent: {
+    marginBottom: hp('6%'),
     flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
@@ -88,7 +89,6 @@ const styles = StyleSheet.create({
     width: wp('43%'),
     height: wp('43%'),
     backgroundColor: '#fff',
-
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 15,
