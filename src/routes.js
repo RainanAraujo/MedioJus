@@ -16,7 +16,7 @@ import {createSharedElementStackNavigator} from 'react-navigation-shared-element
 import {screensEnabled, enableScreens} from 'react-native-screens';
 import {HeaderBackButton} from '@react-navigation/stack';
 import Page from './pages/Page';
-
+import Icon from 'react-native-vector-icons/Feather';
 enableScreens();
 
 const AppStack = createSharedElementStackNavigator();
@@ -47,13 +47,13 @@ export default function Routes() {
             headerLeft: () => null,
             headerStyle: {
               backgroundColor: '#0455BF',
-              height: hp('10%'),
+              height: 100,
             },
             headerTitleAlign: 'left',
             headerRight: () => (
               <TouchableOpacity onPress={() => navigation.navigate('About')}>
-                <FontAwesomeIcon
-                  icon={faInfoCircle}
+                <Icon
+                  name="info"
                   size={30}
                   color="#fff"
                   style={{marginRight: 20}}
@@ -86,14 +86,14 @@ export default function Routes() {
             headerTintColor: '#ffffff',
             headerStyle: {
               backgroundColor: '#0455BF',
-              height: hp('10%'),
+              height: 100,
             },
             headerTitleAlign: 'left',
             headerLeft: () => (
               <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
                 {console.log(navigation)}
-                <FontAwesomeIcon
-                  icon={faArrowLeft}
+                <Icon
+                  name="arrow-left"
                   size={25}
                   color="#fff"
                   style={{marginLeft: 20}}

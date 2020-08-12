@@ -14,10 +14,13 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import Icon from 'react-native-vector-icons/Feather';
 import data from '../../assets/data';
+import otherData from '../../assets/';
 import {SharedElement} from 'react-navigation-shared-element';
 
 export default function Menu({navigation}) {
+  const lastData = data[data.length - 1];
   return (
     <>
       <StatusBar barStyle="light-content" backgroundColor="#0455BF" />
@@ -30,23 +33,31 @@ export default function Menu({navigation}) {
             <View style={styles.scrollContent}>
               {data.map((item, index) => {
                 return (
-                  <View key={item.name} style={styles.buttonOption}>
-                    <TouchableOpacity
-                      onPress={() =>
-                        navigation.navigate('Page', {
-                          selected: {...item, id: index},
-                        })
-                      }>
-                      <SharedElement
-                        id={`item.${index}.photo`}
-                        style={styles.imageView}>
-                        <Image source={item.icon} />
-                      </SharedElement>
-                      <Text style={styles.textButtonOption}>{item.name}</Text>
-                    </TouchableOpacity>
-                  </View>
+                  <>
+                    <View key={item.name} style={styles.buttonOption}>
+                      <TouchableOpacity
+                        onPress={() =>
+                          navigation.navigate('Page', {
+                            selected: {...item, id: index},
+                          })
+                        }>
+                        <SharedElement
+                          id={`item.${index}.photo`}
+                          style={styles.imageView}>
+                          <Image source={item.icon} />
+                        </SharedElement>
+                        <Text style={styles.textButtonOption}>{item.name}</Text>
+                      </TouchableOpacity>
+                    </View>
+                  </>
                 );
               })}
+              <TouchableOpacity style={styles.buttonOtherOptions}>
+                <Text style={styles.textButtonOtherOptions}>
+                  {lastData.name}
+                </Text>
+                <Icon name="arrow-right" color="#7B7B7B" size={30} />
+              </TouchableOpacity>
             </View>
           </ScrollView>
         </View>
@@ -76,13 +87,29 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  buttonOtherOptions: {
+    width: wp('85%'),
+    borderRadius: 10,
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 20,
+    backgroundColor: '#fff',
+    paddingVertical: 20,
+  },
+  textButtonOtherOptions: {
+    fontFamily: 'Roboto-Regular',
+    fontSize: hp('1.8%'),
+    color: '#79828B',
+  },
   textTitle: {
     fontFamily: 'Roboto-Medium',
     fontSize: 18,
     width: wp('100%'),
     textAlign: 'center',
     color: '#656565',
-    marginVertical: 25,
+    marginVertical: hp('3%'),
   },
   scrollView: {
     flexGrow: 1,
@@ -99,7 +126,10 @@ const styles = StyleSheet.create({
   textButtonOption: {
     color: '#79828B',
     textAlign: 'center',
+    color: '#79828B',
+    textAlign: 'center',
     fontSize: hp('1.8%'),
+    fontFamily: 'Roboto-Regular',
     fontFamily: 'Roboto-Regular',
     marginBottom: wp('3%'),
   },
