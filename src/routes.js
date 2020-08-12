@@ -14,6 +14,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faInfoCircle, faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {createSharedElementStackNavigator} from 'react-navigation-shared-element';
 import {screensEnabled, enableScreens} from 'react-native-screens';
+import {HeaderBackButton} from '@react-navigation/stack';
 import Page from './pages/Page';
 
 enableScreens();
@@ -23,9 +24,15 @@ const AppStack = createSharedElementStackNavigator();
 export default function Routes() {
   return (
     <NavigationContainer>
-      <AppStack.Navigator>
+      <AppStack.Navigator
+        screenOptions={{
+          gestureEnabled: false,
+        }}>
         <AppStack.Screen
           name="Start"
+          screenOptions={{
+            gestureEnabled: false,
+          }}
           component={Start}
           options={{
             headerShown: false,
@@ -84,6 +91,7 @@ export default function Routes() {
             headerTitleAlign: 'left',
             headerLeft: () => (
               <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
+                {console.log(navigation)}
                 <FontAwesomeIcon
                   icon={faArrowLeft}
                   size={25}
