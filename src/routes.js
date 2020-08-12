@@ -40,7 +40,7 @@ export default function Routes() {
             headerLeft: () => null,
             headerStyle: {
               backgroundColor: '#0455BF',
-              height: 100,
+              height: hp('10%'),
             },
             headerTitleAlign: 'left',
             headerRight: () => (
@@ -79,7 +79,7 @@ export default function Routes() {
             headerTintColor: '#ffffff',
             headerStyle: {
               backgroundColor: '#0455BF',
-              height: 100,
+              height: hp('10%'),
             },
             headerTitleAlign: 'left',
             headerLeft: () => (

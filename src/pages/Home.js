@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   },
 
   homeImage: {
-    height: 300,
+    height: hp('38%'),
     aspectRatio: 1.1,
   },
   textTitle: {
