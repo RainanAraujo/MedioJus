@@ -16,7 +16,7 @@ import {
 } from 'react-native-responsive-screen';
 import Icon from 'react-native-vector-icons/Feather';
 import data from '../../assets/data';
-import otherData from '../../assets/';
+//import otherData from '../../assets/';
 import {SharedElement} from 'react-navigation-shared-element';
 
 export default function Menu({navigation}) {
@@ -32,32 +32,46 @@ export default function Menu({navigation}) {
             showsVerticalScrollIndicator={false}>
             <View style={styles.scrollContent}>
               {data.map((item, index) => {
-                return (
-                  <>
-                    <View key={item.name} style={styles.buttonOption}>
-                      <TouchableOpacity
-                        onPress={() =>
-                          navigation.navigate('Page', {
-                            selected: {...item, id: index},
-                          })
-                        }>
-                        <SharedElement
-                          id={`item.${index}.photo`}
-                          style={styles.imageView}>
-                          <Image source={item.icon} />
-                        </SharedElement>
-                        <Text style={styles.textButtonOption}>{item.name}</Text>
-                      </TouchableOpacity>
-                    </View>
-                  </>
-                );
+                if (item.type == 'topic') {
+                  return (
+                    <>
+                      <View key={index} style={styles.buttonOption}>
+                        <TouchableOpacity
+                          onPress={() =>
+                            navigation.navigate('Page', {
+                              selected: {...item, id: index},
+                            })
+                          }>
+                          <SharedElement
+                            id={`item.${index}.photo`}
+                            style={styles.imageView}>
+                            <Image source={item.icon} />
+                          </SharedElement>
+                          <Text style={styles.textButtonOption}>
+                            {item.name}
+                          </Text>
+                        </TouchableOpacity>
+                      </View>
+                    </>
+                  );
+                } else if (item.type == 'collection') {
+                  return (
+                    <TouchableOpacity
+                      onPress={() =>
+                        navigation.navigate('Page', {
+                          selected: {...item, id: index},
+                        })
+                      }
+                      key={index}
+                      style={styles.buttonOtherOptions}>
+                      <Text style={styles.textButtonOtherOptions}>
+                        {item.name}
+                      </Text>
+                      <Icon name="arrow-right" color="#7B7B7B" size={30} />
+                    </TouchableOpacity>
+                  );
+                }
               })}
-              <TouchableOpacity style={styles.buttonOtherOptions}>
-                <Text style={styles.textButtonOtherOptions}>
-                  {lastData.name}
-                </Text>
-                <Icon name="arrow-right" color="#7B7B7B" size={30} />
-              </TouchableOpacity>
             </View>
           </ScrollView>
         </View>

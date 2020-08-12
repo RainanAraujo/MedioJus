@@ -77,8 +77,10 @@ export default function Routes() {
           name="Page"
           component={Page}
           sharedElementsConfig={(route, otherRoute, showing) => {
-            const {id} = route.params.selected;
-            return [`item.${id}.photo`];
+            const {id, type} = route.params.selected;
+            if (type == 'topic') {
+              return [`item.${id}.photo`];
+            }
           }}
           options={({navigation, route}) => ({
             title: route.params.selected.name,
@@ -91,7 +93,6 @@ export default function Routes() {
             headerTitleAlign: 'left',
             headerLeft: () => (
               <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
-                {console.log(navigation)}
                 <Icon
                   name="arrow-left"
                   size={25}

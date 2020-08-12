@@ -13,6 +13,7 @@ import sobre from '../images/curiosidades.png';
 export default [
   {
     name: 'Direito Constitucional',
+    type: 'topic',
     icon: constitucional,
     content: [
       'Ramo do Direito que estuda os princípios e nas normas fundamentais do Estado. Seu objeto de estudo é a Constituição, também chamada de Carta Magna, Lei Suprema, Lei Maior. Encontram-se na Constituição de um Estado, os direitos, garantias e deveres dos cidadãos deste país. Além disso, a Constituição estabelece a estrutura do Estado, a divisão dos poderes (Executivo, Legislativo e Judiciário), direitos políticos, diretrizes econômicas, educacionais, eleitorais, para saúde, etc.',
@@ -173,6 +174,7 @@ export default [
   },
   {
     name: 'Direito do Trabalho',
+    type: 'topic',
     icon: direitoTrabalho,
     content: [
       'Ramo do Direito responsável por tratar as normas e princípios que regulam as relações de trabalho. Principal lei é a CLT (Consolidação das Leis do Trabalho)',
@@ -262,6 +264,7 @@ export default [
   },
   {
     name: 'Direito do Consumidor',
+    type: 'topic',
     icon: consumidor,
     content: [
       'Ramo do Direito relacionado às relações entre fornecedores e consumidores. Principal lei é a Lei nº 8.078, de 11 de setembro de 1990, Código de Defesa do Consumidor (CDC).',
@@ -295,6 +298,7 @@ export default [
   },
   {
     name: 'Direito Penal',
+    type: 'topic',
     icon: penal,
     content: [
       'Segmento do Direito composto por normas que qualificam comportamentos humanos como infrações penais, define seus agentes e fixam as sanções.',
@@ -362,6 +366,7 @@ export default [
   },
   {
     name: 'Direito Previdenciário',
+    type: 'topic',
     icon: previdencaiario,
     content: [
       'Ramo do Direito que tem por objetivo o estudo e a regulamentação da seguridade social.',
@@ -399,6 +404,7 @@ export default [
   },
   {
     name: 'Direito da Família',
+    type: 'topic',
     icon: familia,
     content: [
       'Ramo do Direito Civil que tem por objetivo regular as regras, obrigações e direito no convívio familiar. São casos envolvendo casamento, separação, divórcio, guarda dos filhos, pensão alimentícia, adoção. Ainda trata do reconhecimento de união estável, partilha de bens, testamentos e inventários, entre outros.',
@@ -432,6 +438,7 @@ export default [
   },
   {
     name: 'Outras Legislações',
+    type: 'collection',
     icon: familia,
     content: [
       'Lei 11.340 de 7 de Agosto de 2006: Lei Maria da Penha',
