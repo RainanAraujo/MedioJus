@@ -35,17 +35,35 @@ export default Page = ({navigation, route}) => {
             contentContainerStyle={{flexGrow: 1}}
             showsVerticalScrollIndicator={false}>
             <View style={{marginHorizontal: 25, marginBottom: 10}}>
-              {content.map((paragraph) => (
-                <Text
-                  style={{
-                    fontSize: 20,
-                    color: '#656565',
-                    textAlign: 'justify',
-                    lineHeight: 30,
-                  }}>
-                  {paragraph}
-                </Text>
-              ))}
+              {content.map((item, index) => {
+                if (item.type == 'paragraph') {
+                  return (
+                    <Text
+                      key={index}
+                      style={{
+                        fontSize: 20,
+                        color: '#656565',
+                        textAlign: 'justify',
+                        lineHeight: 30,
+                      }}>
+                      {item.data}
+                    </Text>
+                  );
+                } else if (item.type == 'title') {
+                  return (
+                    <Text
+                      key={index}
+                      style={{
+                        fontSize: 30,
+                        color: '#656565',
+                        textAlign: 'justify',
+                        lineHeight: 40,
+                      }}>
+                      {item.data}
+                    </Text>
+                  );
+                }
+              })}
             </View>
           </ScrollView>
         </View>
