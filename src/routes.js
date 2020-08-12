@@ -11,7 +11,7 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
-import {faInfoCircle} from '@fortawesome/free-solid-svg-icons';
+import {faInfoCircle, faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {createSharedElementStackNavigator} from 'react-navigation-shared-element';
 import {screensEnabled, enableScreens} from 'react-native-screens';
 import Page from './pages/Page';
@@ -73,15 +73,26 @@ export default function Routes() {
             const {id} = route.params.selected;
             return [`item.${id}.photo`];
           }}
-          options={{
-            title: 'Page',
+          options={({navigation, route}) => ({
+            title: route.params.selected.name,
             headerTitleAlign: 'center',
             headerTintColor: '#ffffff',
             headerStyle: {
               backgroundColor: '#0455BF',
+              height: 100,
             },
             headerTitleAlign: 'left',
-          }}
+            headerLeft: () => (
+              <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
+                <FontAwesomeIcon
+                  icon={faArrowLeft}
+                  size={25}
+                  color="#fff"
+                  style={{marginLeft: 20}}
+                />
+              </TouchableOpacity>
+            ),
+          })}
         />
         <AppStack.Screen
           name="About"
