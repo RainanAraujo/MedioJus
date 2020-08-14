@@ -69,7 +69,7 @@ export default Page = ({navigation, route}) => {
 
           <FlatList
             data={content}
-            initialNumToRender={100}
+            initialNumToRender={50}
             maxToRenderPerBatch={50}
             windowSize={101}
             showsVerticalScrollIndicator={false}
