@@ -71,6 +71,7 @@ export default Page = ({navigation, route}) => {
             data={content}
             initialNumToRender={50}
             maxToRenderPerBatch={50}
+            windowSize={101}
             showsVerticalScrollIndicator={false}
             style={{flex: 1, paddingHorizontal: 25}}
             keyExtractor={({index}) => index}
