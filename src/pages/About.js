@@ -19,11 +19,19 @@ export default function About({navigation}) {
       <StatusBar barStyle="light-content" backgroundColor="#0455BF"></StatusBar>
       <View style={styles.container}>
         <View style={styles.imageView}>
-          <Image source={sobre} />
+          <Image source={sobre} style={styles.image} />
+          <Text style={styles.textAbout}>
+            Este aplicativo tem por objetivo possibilitar o contato dos
+            discentes de Ensino Médio com orientações ou conhecimentos
+            jurídicos, especialmente direitos e deveres, que contribuirão para a
+            formação, cada vez mais cedo, de cidadãos ativos, críticos, lúcidos
+            e conscientes de seu papel na construção de uma sociedade mais
+            livre, justa e solidária.
+          </Text>
         </View>
         <View style={styles.textView}>
           <Text style={styles.textBold}>Pesquisador:</Text>
-          <Text style={styles.textLight}>sdasddsasda</Text>
+          <Text style={styles.textLight}>Lauro Henrique Borges Leal</Text>
           <Text style={styles.textBold}>Orientação:</Text>
           <Text style={styles.textLight}>
             Prof. Dr. Francisco Adelton Alves Rrbeiro:
@@ -46,9 +54,13 @@ export default function About({navigation}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
     backgroundColor: '#fff',
+  },
+  image: {
+    height: 130,
+    aspectRatio: 1.539,
   },
   horizontalView: {
     flexDirection: 'row',
@@ -58,7 +70,7 @@ const styles = StyleSheet.create({
   imageView: {
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 50,
+    padding: 25,
   },
   textView: {
     alignItems: 'center',
@@ -72,6 +84,13 @@ const styles = StyleSheet.create({
   textLight: {
     textAlign: 'center',
     fontSize: 14,
+    color: '#000',
+  },
+  textAbout: {
+    textAlign: 'center',
+    fontSize: 15,
+    marginTop: 20,
+    lineHeight: 20,
     color: '#000',
   },
 });
