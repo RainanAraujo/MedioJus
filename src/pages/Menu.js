@@ -16,11 +16,9 @@ import {
 } from 'react-native-responsive-screen';
 import Icon from 'react-native-vector-icons/Feather';
 import data from '../../assets/data';
-//import otherData from '../../assets/';
 import {SharedElement} from 'react-navigation-shared-element';
 
 export default function Menu({navigation}) {
-  const lastData = data[data.length - 1];
   return (
     <>
       <StatusBar barStyle="light-content" backgroundColor="#0455BF" />
