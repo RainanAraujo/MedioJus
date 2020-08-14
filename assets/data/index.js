@@ -14,278 +14,278 @@ export default [
       {
         type: 'paragraph',
         data:
-          'Ramo do Direito que estuda os princípios e nas normas fundamentais do Estado. Seu objeto de estudo é a Constituição, também chamada de Carta Magna, Lei Suprema, Lei Maior. Encontram-se na Constituição de um Estado, os direitos, garantias e deveres dos cidadãos deste país. Além disso, a Constituição estabelece a estrutura do Estado, a divisão dos poderes (Executivo, Legislativo e Judiciário), direitos políticos, diretrizes econômicas, educacionais, eleitorais, para saúde, etc.',
+          '• Ramo do Direito que estuda os princípios e nas normas fundamentais do Estado. Seu objeto de estudo é a Constituição, também chamada de Carta Magna, Lei Suprema, Lei Maior. Encontram-se na Constituição de um Estado, os direitos, garantias e deveres dos cidadãos deste país. Além disso, a Constituição estabelece a estrutura do Estado, a divisão dos poderes (Executivo, Legislativo e Judiciário), direitos políticos, diretrizes econômicas, educacionais, eleitorais, para saúde, etc.',
       },
       {
         type: 'paragraph',
         data:
-          'Constituição da República Federativa do Brasil de 1988: promulgada em 5 de outubro de 1988 (Foto da Constituição Federal)',
+          '• Constituição da República Federativa do Brasil de 1988: promulgada em 5 de outubro de 1988',
       },
       {
         type: 'paragraph',
-        data: 'Está dividida em Títulos, Capítulos, Seções, Subseções.',
+        data: '• Está dividida em Títulos, Capítulos, Seções, Subseções.',
       },
-      {type: 'paragraph', data: 'Sua organização:'},
+      {type: 'paragraph', data: '• Sua organização:'},
       {
-        type: 'paragraph',
+        type: 'title',
         data: 'Título I: Dos Princípios Fundamentais (1º ao 4º artigo);',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
           'Título II: Dos Direitos e Garantias Fundamentais (5º ao artigo 17):',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
           'Capítulo I: Dos Direitos e Deveres Individuais e Coletivos (artigo 5º)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo II: Dos Direitos Sociais (6º ao artigo 11)',
       },
-      {type: 'paragraph', data: 'Capítulo III: Da Nacionalidade (12 ao 13)'},
+      {type: 'item', data: 'Capítulo III: Da Nacionalidade (12 ao 13)'},
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo IV: Dos Direitos Políticos (14 ao 16)',
       },
-      {type: 'paragraph', data: 'Capítulo V: Dos Partidos Políticos (17)'},
+      {type: 'item', data: 'Capítulo V: Dos Partidos Políticos (17)'},
       {
-        type: 'paragraph',
+        type: 'title',
         data: 'Título III: Da Organização do Estado (18 ao 43):',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo I: Da Organização Político-Administrativa (18 ao 19)',
       },
-      {type: 'paragraph', data: 'Capítulo II: Da União (20 ao 24)'},
+      {type: 'item', data: 'Capítulo II: Da União (20 ao 24)'},
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo III: Dos Estados Federados (25 ao 28)',
       },
-      {type: 'paragraph', data: 'Capítulo IV: Dos Municípios (29 ao 31)'},
+      {type: 'item', data: 'Capítulo IV: Dos Municípios (29 ao 31)'},
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo V: Do Distrito Federal e dos Territórios (32 ao 33):',
       },
-      {type: 'paragraph', data: 'Seção I: Do Distrito Federal (32)'},
-      {type: 'paragraph', data: 'Seção II: Dos Territórios (33)'},
-      {type: 'paragraph', data: 'Capítulo VI: Da Intervenção (34 ao 36)'},
+      {type: 'subItem', data: 'Seção I: Do Distrito Federal (32)'},
+      {type: 'subItem', data: 'Seção II: Dos Territórios (33)'},
+      {type: 'item', data: 'Capítulo VI: Da Intervenção (34 ao 36)'},
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo VII: Da Administração Pública (37 ao 43)',
       },
-      {type: 'paragraph', data: 'Seção I: Disposições Gerais (37 ao 38)'},
-      {type: 'paragraph', data: 'Seção II: Dos Servidores Públicos (39 ao 41)'},
+      {type: 'subItem', data: 'Seção I: Disposições Gerais (37 ao 38)'},
+      {type: 'subItem', data: 'Seção II: Dos Servidores Públicos (39 ao 41)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           'Seção III: Dos Militares dos Estados, do Distrito Federal e dos Territórios (42)',
       },
-      {type: 'paragraph', data: 'Seção IV: Das Regiões (43)'},
+      {type: 'subItem', data: 'Seção IV: Das Regiões (43)'},
       {
-        type: 'paragraph',
+        type: 'title',
         data: 'Título IV: Da Organização dos Poderes (44 ao 135)',
       },
-      {type: 'paragraph', data: 'Capítulo I: Do Poder Legislativo (44 ao 75)'},
-      {type: 'paragraph', data: 'Seção I: Do Congresso Nacional (44 ao 47)'},
+      {type: 'item', data: 'Capítulo I: Do Poder Legislativo (44 ao 75)'},
+      {type: 'subItem', data: 'Seção I: Do Congresso Nacional (44 ao 47)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção II: Das Atribuições do Congresso Nacional (48 ao 50)',
       },
-      {type: 'paragraph', data: 'Seção III: Da Câmara dos Deputados (51)'},
-      {type: 'paragraph', data: 'Seção IV: Do Senado Federal (52)'},
+      {type: 'subItem', data: 'Seção III: Da Câmara dos Deputados (51)'},
+      {type: 'subItem', data: 'Seção IV: Do Senado Federal (52)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção V: Dos Deputados e Senadores (53 ao 56)',
       },
-      {type: 'paragraph', data: 'Seção VI: Das Reuniões (57)'},
-      {type: 'paragraph', data: 'Seção VII: Das Comissões (58)'},
+      {type: 'subItem', data: 'Seção VI: Das Reuniões (57)'},
+      {type: 'subItem', data: 'Seção VII: Das Comissões (58)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção VIII: Do Processo Legislativo (59 ao 69)',
       },
-      {type: 'paragraph', data: 'Subseção I: Disposição Geral (59)'},
-      {type: 'paragraph', data: 'Subseção II: Da Emenda à Constituição (60)'},
-      {type: 'paragraph', data: 'Subseção III: Das Leis (61 ao 69)'},
+      {type: 'subSubItem', data: 'Subseção I: Disposição Geral (59)'},
+      {type: 'subSubItem', data: 'Subseção II: Da Emenda à Constituição (60)'},
+      {type: 'subSubItem', data: 'Subseção III: Das Leis (61 ao 69)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           'Seção IX: Da Fiscalização Contábil, Financeira e Orçamentária (70 ao 75)',
       },
-      {type: 'paragraph', data: 'Capítulo II: Do Poder Executivo (76 ao 91)'},
+      {type: 'item', data: 'Capítulo II: Do Poder Executivo (76 ao 91)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           'Seção I - Do Presidente e do Vice-Presidente da República (76 a 83)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção II - Das Atribuições do Presidente da República (84)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           'Seção III - Da Responsabilidade do Presidente da República (85 e 86)',
       },
-      {type: 'paragraph', data: 'Seção IV - Dos Ministros de Estado (87 a 88)'},
+      {type: 'subItem', data: 'Seção IV - Dos Ministros de Estado (87 a 88)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           'Seção V - Do Conselho da República e do Conselho de Defesa Nacional (89 a 91)',
       },
       {
-        type: 'paragraph',
+        type: 'subSubItem',
         data: 'Subseção I - Do Conselho da República (89 a 90)',
       },
       {
-        type: 'paragraph',
+        type: 'subSubItem',
         data: 'Subseção II - Do Conselho de Defesa Nacional (91)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo III - Do Poder Judiciário (92 a 126)',
       },
-      {type: 'paragraph', data: 'Seção I - Disposições Gerais (92 a 100)'},
+      {type: 'subItem', data: 'Seção I - Disposições Gerais (92 a 100)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção II - Do Supremo Tribunal Federal (101 a 103)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção III - Do Superior Tribunal de Justiça (104 e 105)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           'Seção IV - Dos Tribunais Regionais Federais e dos Juízes Federais (106 a 110)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção V - Dos Tribunais e Juízes do Trabalho (111 a 117)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção VI - Dos Tribunais e Juízes Eleitorais (118 a 121)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção VII - Dos Tribunais e Juízes Militares (122 a 124)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção VIII - Dos Tribunais e Juízes dos Estados (125 e 126)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo IV - Das Funções Essenciais À Justiça (127 a 135)',
       },
-      {type: 'paragraph', data: 'Seção I - Do Ministério Público (127 a 130)'},
-      {type: 'paragraph', data: 'Seção II - Da Advocacia Pública (131 e 132)'},
+      {type: 'subItem', data: 'Seção I - Do Ministério Público (127 a 130)'},
+      {type: 'subItem', data: 'Seção II - Da Advocacia Pública (131 e 132)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção III - Da Advocacia e da Defensória Pública (133 a 135)',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
           'Título V:Da Defesa do Estado e das Instituições Democráticas (136 a 144)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
           'Capítulo I - Do Estado de Defesa e do Estado De Sítio (136 a 141)',
       },
-      {type: 'paragraph', data: 'Seção I - Do Estado de Defesa (136)'},
-      {type: 'paragraph', data: 'Seção II - Do Estado de Sítio (137 a 139)'},
-      {type: 'paragraph', data: 'Seção III - Disposições Gerais (140 e 141)'},
-      {type: 'paragraph', data: 'Capítulo II- Das Forças Armadas (142 a 143)'},
-      {type: 'paragraph', data: 'Capítulo III - Da Segurança Pública (144)'},
+      {type: 'subItem', data: 'Seção I - Do Estado de Defesa (136)'},
+      {type: 'subItem', data: 'Seção II - Do Estado de Sítio (137 a 139)'},
+      {type: 'subItem', data: 'Seção III - Disposições Gerais (140 e 141)'},
+      {type: 'item', data: 'Capítulo II- Das Forças Armadas (142 a 143)'},
+      {type: 'item', data: 'Capítulo III - Da Segurança Pública (144)'},
       {
-        type: 'paragraph',
+        type: 'title',
         data: 'Título VI - Da Tributação e do Orçamento (145 a 169)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo I - Do Sistema Tributário Nacional (145 a 162)',
       },
-      {type: 'paragraph', data: 'Seção I - Dos Princípios Gerais (145 a 149)'},
+      {type: 'subItem', data: 'Seção I - Dos Princípios Gerais (145 a 149)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção II - Das Limitações do Poder de Tributar (150 a 152)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção III - Dos Impostos da União (153 e 154)',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção IV - Dos Impostos dos Estados e do Distrito Federal (155)',
       },
-      {type: 'paragraph', data: 'Seção V - Dos Impostos dos Municípios (156)'},
+      {type: 'subItem', data: 'Seção V - Dos Impostos dos Municípios (156)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção VI - Da Repartição das Receitas Tributárias (157 a 162)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo II - Das Finanças Públicas (163 a 169)',
       },
-      {type: 'paragraph', data: 'Seção I - Normas Gerais (163 e 164)'},
-      {type: 'paragraph', data: 'Seção II - Dos Orçamentos (165 a 169)'},
+      {type: 'subItem', data: 'Seção I - Normas Gerais (163 e 164)'},
+      {type: 'subItem', data: 'Seção II - Dos Orçamentos (165 a 169)'},
       {
-        type: 'paragraph',
+        type: 'title',
         data: 'Título VII - Da Ordem Econômica E Financeira (170 a 192)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
           'Capítulo I - Dos Princípios Gerais Da Atividade Econômica (170 a 181)',
       },
-      {type: 'paragraph', data: 'Capítulo II - Da Política Urbana (182 e 183)'},
+      {type: 'item', data: 'Capítulo II - Da Política Urbana (182 e 183)'},
       {
-        type: 'paragraph',
+        type: 'item',
         data:
           'Capítulo III - Da Política Agrícola e Fundiária e da Reforma Agrária (184 a 191)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo IV - Do Sistema Financeiro Nacional (192)',
       },
-      {type: 'paragraph', data: 'Título VIII - Da Ordem Social (193 a 232)'},
-      {type: 'paragraph', data: 'Capítulo I - Disposição Geral (Art. 193)'},
-      {type: 'paragraph', data: 'Capítulo II - Da Seguridade Social'},
-      {type: 'paragraph', data: 'Seção I - Disposições Gerais (194 e 195)'},
-      {type: 'paragraph', data: 'Seção II - Da Saúde (196 a 200)'},
+      {type: 'title', data: 'Título VIII - Da Ordem Social (193 a 232)'},
+      {type: 'item', data: 'Capítulo I - Disposição Geral (Art. 193)'},
+      {type: 'item', data: 'Capítulo II - Da Seguridade Social'},
+      {type: 'subItem', data: 'Seção I - Disposições Gerais (194 e 195)'},
+      {type: 'subItem', data: 'Seção II - Da Saúde (196 a 200)'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: 'Seção III - Da Previdência Social (201 e 202)',
       },
-      {type: 'paragraph', data: 'Seção IV - Da Assistência Social (203 e 204)'},
+      {type: 'subItem', data: 'Seção IV - Da Assistência Social (203 e 204)'},
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo III - Da Educação, Da Cultura E Do Desporto',
       },
-      {type: 'paragraph', data: 'Seção I - Da Educação (205 a 214)'},
-      {type: 'paragraph', data: 'Seção II - Da Cultura (215 e 216)'},
-      {type: 'paragraph', data: 'Seção III - Do Desporto (217)'},
+      {type: 'subItem', data: 'Seção I - Da Educação (205 a 214)'},
+      {type: 'subItem', data: 'Seção II - Da Cultura (215 e 216)'},
+      {type: 'subItem', data: 'Seção III - Do Desporto (217)'},
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo IV - Da Ciência E Tecnologia (218 e 219)',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data: 'Capítulo V - Da Comunicação Social (220 a 224)',
       },
-      {type: 'paragraph', data: 'Capítulo VI - Do Meio Ambiente (225)'},
+      {type: 'item', data: 'Capítulo VI - Do Meio Ambiente (225)'},
       {
-        type: 'paragraph',
+        type: 'item',
         data:
           'Capítulo VII - Da Família, da Criança, do Adolescente e do Idoso (226 a 230)',
       },
-      {type: 'paragraph', data: 'Capítulo VIII - Dos Índios (231 e 232)'},
+      {type: 'item', data: 'Capítulo VIII - Dos Índios (231 e 232)'},
       {
-        type: 'paragraph',
+        type: 'title',
         data: 'Título IX - Das Disposições Constitucionais Gerais (233 a 250)',
       },
       {
@@ -293,9 +293,9 @@ export default [
         data: 'Ato das Disposições Constitucionais Transitórias (1º ao 114)',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:',
+          '• Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:',
       },
       {type: 'paragraph', data: 'I - a soberania;'},
       {type: 'paragraph', data: 'II - a cidadania;'},
@@ -312,14 +312,14 @@ export default [
           'Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.',
+          '• Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:',
+          '• Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:',
       },
       {
         type: 'paragraph',
@@ -337,9 +337,9 @@ export default [
           'IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:',
+          '• Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:',
       },
       {type: 'paragraph', data: 'Alguns incisos:'},
       {
@@ -506,12 +506,11 @@ export default [
     icon: direitoTrabalho,
     content: [
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Ramo do Direito responsável por tratar as normas e princípios que regulam as relações de trabalho. Principal lei é a CLT (Consolidação das Leis do Trabalho)',
+          '• Ramo do Direito responsável por tratar as normas e princípios que regulam as relações de trabalho. Principal lei é a CLT (Consolidação das Leis do Trabalho)',
       },
-      {type: 'paragraph', data: 'FOTO DA CARTEIRA DE TRABALHO AO FUNDO'},
-      {type: 'paragraph', data: 'Relação de emprego e carteira de trabalho:'},
+      {type: 'title', data: '• Relação de emprego e carteira de trabalho:'},
       {
         type: 'paragraph',
         data:
@@ -527,7 +526,7 @@ export default [
         data:
           '- OBS: A ausência de anotação ou mesmo da CTPS não retira do empregado seus direitos, que podem ser reivindicados judicialmente por meio de uma reclamação trabalhista.',
       },
-      {type: 'paragraph', data: 'Contrato de Trabalho:'},
+      {type: 'title', data: '• Contrato de Trabalho:'},
       {
         type: 'paragraph',
         data:
@@ -543,7 +542,7 @@ export default [
         data:
           '- Terceirização: caracteriza-se quando uma empresa (tomadora) contrata outra empresa (prestadora) para desempenhar determinados serviços, sendo que a relação de emprego se faz entre o trabalhador e a empresa prestadora de serviços, e não diretamente com o contratante (tomador) destes. Com a Lei 13.429, de 31 de março de 2017, criou-se a possibilidade de terceirização de atividade “meio” e “fim” (principais) da empresa.',
       },
-      {type: 'paragraph', data: 'Contrato de Estágio'},
+      {type: 'title', data: '• Contrato de Estágio'},
       {
         type: 'paragraph',
         data:
@@ -601,7 +600,7 @@ export default [
         data:
           '- Sendo inferior a 1 ano, os dias de recesso serão computados proporcionalmente.',
       },
-      {type: 'paragraph', data: 'Menor Aprendiz'},
+      {type: 'title', data: '• Menor Aprendiz'},
       {
         type: 'paragraph',
         data:
@@ -639,7 +638,7 @@ export default [
         data:
           '- O contrato poderá cessar antecipadamente quando: desempenho insuficiente do aprendiz, falta disciplinar grave, ausência injustificada à escola que implique perda do ano letivo, a pedido do aprendiz.',
       },
-      {type: 'paragraph', data: 'Jornada de Trabalho'},
+      {type: 'title', data: '• Jornada de Trabalho'},
       {
         type: 'paragraph',
         data:
@@ -678,12 +677,12 @@ export default [
       {
         type: 'paragraph',
         data:
-          'Salário Mínimo: é a contraprestação mínima devida e paga diretamente pelo empregador a todo trabalhador. Não pode ser inferior ao salário mínimo vigente e deve, ainda, respeitar pisos salariais de categorias.',
+          '• Salário Mínimo: é a contraprestação mínima devida e paga diretamente pelo empregador a todo trabalhador. Não pode ser inferior ao salário mínimo vigente e deve, ainda, respeitar pisos salariais de categorias.',
       },
       {
         type: 'paragraph',
         data:
-          'Adicionais: parcelas suplementares pagas ao empregado em virtude do exercício do trabalho em condições de maior desgaste ou mais gravosa. Algumas delas:',
+          '• Adicionais: parcelas suplementares pagas ao empregado em virtude do exercício do trabalho em condições de maior desgaste ou mais gravosa. Algumas delas:',
       },
       {
         type: 'paragraph',
@@ -715,7 +714,7 @@ export default [
       {
         type: 'paragraph',
         data:
-          'Férias: É um direito de descanso remunerado que o empregado adquire após ter trabalhado 12 meses para um empregador (período aquisitivo).',
+          '• Férias: É um direito de descanso remunerado que o empregado adquire após ter trabalhado 12 meses para um empregador (período aquisitivo).',
       },
       {
         type: 'paragraph',
@@ -739,7 +738,7 @@ export default [
       {
         type: 'paragraph',
         data:
-          'Décimo Terceiro: consiste no pagamento de um salário extra ao trabalhador no final de cada ano.',
+          '• Décimo Terceiro: consiste no pagamento de um salário extra ao trabalhador no final de cada ano.',
       },
       {
         type: 'paragraph',
@@ -754,14 +753,17 @@ export default [
       {
         type: 'paragraph',
         data:
-          'Aviso Prévio: comunicação à outra parte de que não há mais interesse na continuidade do pacto. Serve como tempo para que o empregador possa conseguir outro empregado ou o empregado procure outro emprego.',
+          '• Aviso Prévio: comunicação à outra parte de que não há mais interesse na continuidade do pacto. Serve como tempo para que o empregador possa conseguir outro empregado ou o empregado procure outro emprego.',
       },
       {type: 'paragraph', data: '- Poderá ser trabalhado ou indenizado.'},
       {
         type: 'paragraph',
         data: '- Tem duração de pelo menos 30 dias até o máximo de 90 dias.',
       },
-      {type: 'paragraph', data: 'FGTS: Fundo de Garantia por Tempo de Serviço'},
+      {
+        type: 'paragraph',
+        data: '• FGTS: Fundo de Garantia por Tempo de Serviço',
+      },
       {
         type: 'paragraph',
         data:
@@ -775,21 +777,22 @@ export default [
       {
         type: 'paragraph',
         data:
-          'Rescisões: fim do vínculo empregatício, término da relação de trabalho. Verbas Rescisórias: direitos que o empregado fará jus no momento da rescisão do contrato de trabalho. Alguns tipos de rescisões do contrato de trabalho:',
+          '• Rescisões: fim do vínculo empregatício, término da relação de trabalho. Verbas Rescisórias: direitos que o empregado fará jus no momento da rescisão do contrato de trabalho. Alguns tipos de rescisões do contrato de trabalho:',
       },
       {
         type: 'paragraph',
         data:
           '- Dispensa do empregado sem justa causa: Ocorre unicamente por vontade de empregador.',
       },
-      {type: 'paragraph', data: 'Empregado terá direito: - saldo de salário'},
-      {type: 'paragraph', data: '- férias vencidas + 1/3'},
-      {type: 'paragraph', data: '- férias proporcionais + 1/3'},
-      {type: 'paragraph', data: '- 13º salário proporcional'},
-      {type: 'paragraph', data: '- aviso prévio'},
-      {type: 'paragraph', data: '- saque FGTS'},
-      {type: 'paragraph', data: '- multa FGTS (40%)'},
-      {type: 'paragraph', data: '- Seguro-desemprego'},
+      {type: 'paragraph', data: 'Empregado terá direito:'},
+      {type: 'subSubItem', data: '- saldo de salário'},
+      {type: 'subSubItem', data: '- férias vencidas + 1/3'},
+      {type: 'subSubItem', data: '- férias proporcionais + 1/3'},
+      {type: 'subSubItem', data: '- 13º salário proporcional'},
+      {type: 'subSubItem', data: '- aviso prévio'},
+      {type: 'subSubItem', data: '- saque FGTS'},
+      {type: 'subSubItem', data: '- multa FGTS (40%)'},
+      {type: 'subSubItem', data: '- Seguro-desemprego'},
       {
         type: 'paragraph',
         data:
@@ -819,31 +822,31 @@ export default [
     icon: consumidor,
     content: [
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Ramo do Direito relacionado às relações entre fornecedores e consumidores. Principal lei é a Lei nº 8.078, de 11 de setembro de 1990, Código de Defesa do Consumidor (CDC).',
+          '• Ramo do Direito relacionado às relações entre fornecedores e consumidores. Principal lei é a Lei nº 8.078, de 11 de setembro de 1990, Código de Defesa do Consumidor (CDC).',
+      },
+      {
+        type: 'title',
+        data:
+          '• Lei 12.291/1990 torna obrigatória a manutenção de exemplar do CDC nos estabelecimentos comerciais e de prestação de serviços.',
       },
       {
         type: 'paragraph',
         data:
-          'Lei 12.291/1990 torna obrigatória a manutenção de exemplar do CDC nos estabelecimentos comerciais e de prestação de serviços.',
+          '• Consumidor: toda pessoa física ou jurídica que adquire ou utiliza produto como destinatário final.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Consumidor: toda pessoa física ou jurídica que adquire ou utiliza produto como destinatário final.',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'Fornecedor: aquele que fornece produto ou serviços aos consumidores.',
+          '• Fornecedor: aquele que fornece produto ou serviços aos consumidores.',
       },
       {
         type: 'paragraph',
         data:
           'Objeto da relação consumerista: produto ou serviço. Produto é qualquer bem, móvel ou imóvel, material ou imaterial. Serviço é qualquer atividade fornecida no mercado de consumo, mediante remuneração, inclusive as de natureza bancária, financeira, de crédito e securitária, salvo as decorrentes das relações de caráter trabalhista.',
       },
-      {type: 'paragraph', data: 'Publicidade Enganosa e Abusiva:'},
+      {type: 'title', data: '• Publicidade Enganosa e Abusiva:'},
       {
         type: 'paragraph',
         data:
@@ -854,7 +857,7 @@ export default [
         data:
           '- Publicidade Abusiva é aquela que estimula o consumidor a se comportar de forma prejudicial a sua integridade, podendo causar prejuízo físico e psíquico. Ela pode incitar a violência, explorar o medo ou a superstição, aproveitar-se da deficiência de julgamento e experiência da criança, desrespeitar valores ambientais etc.',
       },
-      {type: 'paragraph', data: 'Práticas Comerciais Abusivas: são proibidas.'},
+      {type: 'title', data: '• Práticas Comerciais Abusivas: são proibidas.'},
       {type: 'paragraph', data: '- Venda Casada'},
       {
         type: 'paragraph',
@@ -871,9 +874,9 @@ export default [
           '- O envio de produto ou fornecimento de serviço sem solicitação equivale a amostra grátis.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Garantia: Garantia Contratual é aquele dada pelo fornecedor. Deve ser somada à garantia legal, que é imposta pelo Código de Defesa do Consumidor-CDC.',
+          '• Garantia: Garantia Contratual é aquele dada pelo fornecedor. Deve ser somada à garantia legal, que é imposta pelo Código de Defesa do Consumidor-CDC.',
       },
       {
         type: 'paragraph',
@@ -891,9 +894,9 @@ export default [
           '- Tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Produto com Vícios: uma vez percebido o vício, deve-se solicitar ao fornecedor a troca. Nesse caso, o fornecedor tem até 30 dias a partir da data da reclamação para reparar o produto e sanar o vício. Se nesse período o vício não for sanado, o consumidor pode exigir uma das opções: a substituição do produto por outro da mesma espécie, em perfeitas condições de uso; restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos; ou abatimento proporcional do preço.',
+          '• Produto com Vícios: uma vez percebido o vício, deve-se solicitar ao fornecedor a troca. Nesse caso, o fornecedor tem até 30 dias a partir da data da reclamação para reparar o produto e sanar o vício. Se nesse período o vício não for sanado, o consumidor pode exigir uma das opções: a substituição do produto por outro da mesma espécie, em perfeitas condições de uso; restituição imediata da quantia paga, monetariamente atualizada, sem prejuízo de eventuais perdas e danos; ou abatimento proporcional do preço.',
       },
       {
         type: 'paragraph',
@@ -901,18 +904,18 @@ export default [
           '- Se você comprou um produto ou ganhou um presente, mas quer fazer a troca por causa da cor, do tamanho ou porque mudou de ideia, o estabelecimento não é obrigado a realizar a troca de produtos sem defeito, a não ser que ele tenha se comprometido no momento da venda, conforme sua política de trocas. Deve-se ter o cuidado de manter a etiqueta ou nota fiscal.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Direito de Arrependimento: Nas comprar realizadas fora do estabelecimento comercial, como por telefone e internet, o consumidor pode exercer o direito ao arrependimento no prazo de 7 dias, contados de quando o consumidor recebe os produtos.',
+          '• Direito de Arrependimento: Nas comprar realizadas fora do estabelecimento comercial, como por telefone e internet, o consumidor pode exercer o direito ao arrependimento no prazo de 7 dias, contados de quando o consumidor recebe os produtos.',
       },
       {
         type: 'paragraph',
         data: '- O custo da devolução é do fornecedor (inclusive o frete).',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Cobrança de Dívidas: o consumidor inadimplente não será exposto a ridículo, nem será submetido a qualquer tipo de constrangimento ou ameaça. O consumidor cobrado em quantia indevida tem direito ao dobro do que pagou em excesso, acrescido de correção monetária e juros legais.',
+          '• Cobrança de Dívidas: o consumidor inadimplente não será exposto a ridículo, nem será submetido a qualquer tipo de constrangimento ou ameaça. O consumidor cobrado em quantia indevida tem direito ao dobro do que pagou em excesso, acrescido de correção monetária e juros legais.',
       },
       {type: 'paragraph', data: 'Banco de Dados e Cadastros de Consumidores'},
       {
@@ -943,34 +946,34 @@ export default [
     icon: penal,
     content: [
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Segmento do Direito composto por normas que qualificam comportamentos humanos como infrações penais, define seus agentes e fixam as sanções.',
+          '• Segmento do Direito composto por normas que qualificam comportamentos humanos como infrações penais, define seus agentes e fixam as sanções.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Dolo: ocorre quando o agente quis o resultado ou assumiu o risco de produzi-lo.',
+          '• Dolo: ocorre quando o agente quis o resultado ou assumiu o risco de produzi-lo.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Culpa: quando o quando o agente dá causa ao resultado por imprudência, negligência ou imperícia.',
+          '• Culpa: quando o quando o agente dá causa ao resultado por imprudência, negligência ou imperícia.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Crime: ação ou omissão proibida por lei e ameaçada com uma sanção, pois ofendeu um bem jurídico.',
+          '• Crime: ação ou omissão proibida por lei e ameaçada com uma sanção, pois ofendeu um bem jurídico.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Contravenção: infração penal de menor gravidade, e que por isso, tem como consequência uma pena mais leve do que a estabelecida para um crime, sendo punida com pena de prisão simples ou multa, ou ambas, alternativa ou cumulativamente. Exemplos: Fingir-se funcionário público, explorar a loteria denominada jogo do bicho, dirigir sem a devida habilitação veículo na via pública, etc.',
+          '• Contravenção: infração penal de menor gravidade, e que por isso, tem como consequência uma pena mais leve do que a estabelecida para um crime, sendo punida com pena de prisão simples ou multa, ou ambas, alternativa ou cumulativamente. Exemplos: Fingir-se funcionário público, explorar a loteria denominada jogo do bicho, dirigir sem a devida habilitação veículo na via pública, etc.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Tipos de Penas: No Brasil, há a previsão de três tipos de penas: privativas de liberdade, restritiva de direitos, multa.',
+          '• Tipos de Penas: No Brasil, há a previsão de três tipos de penas: privativas de liberdade, restritiva de direitos, multa.',
       },
       {
         type: 'paragraph',
@@ -978,11 +981,11 @@ export default [
           '- São proibidas no Brasil as penas: de morte (salvo em caso de guerra declarada), de caráter perpétuo, de trabalhos forçados, de banimento, cruéis.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Furto e Roubo: No furto, não há violência ou ameaça contra a vítima, enquanto o roubo consiste na ocorrência de ameaça ou violência contra quem está sendo roubado. Exemplo: uma pessoa entra em uma loja de calçados, vê a vitrine aberta, pega um sapato e foge. No entanto, seria roubo se essa mesma pessoa entra na loja com uma pistola, ameaça os funcionários pega alguns sapatos e foge.',
+          '• Furto e Roubo: No furto, não há violência ou ameaça contra a vítima, enquanto o roubo consiste na ocorrência de ameaça ou violência contra quem está sendo roubado. Exemplo: uma pessoa entra em uma loja de calçados, vê a vitrine aberta, pega um sapato e foge. No entanto, seria roubo se essa mesma pessoa entra na loja com uma pistola, ameaça os funcionários pega alguns sapatos e foge.',
       },
-      {type: 'paragraph', data: 'Crimes contra a honra:'},
+      {type: 'paragraph', data: '• Crimes contra a honra:'},
       {
         type: 'paragraph',
         data:
@@ -1003,8 +1006,8 @@ export default [
         data: '- Esses crimes também podem ocorrer em meio virtual.',
       },
       {
-        type: 'paragraph',
-        data: 'Lei 12.737 de 30 de novembro de 2012: Lei Carolina Dieckmann',
+        type: 'title',
+        data: '• Lei 12.737 de 30 de novembro de 2012: Lei Carolina Dieckmann',
       },
       {
         type: 'paragraph',
@@ -1032,8 +1035,8 @@ export default [
           '- Se o crime for cometido contra o presidente da República, do Supremo Tribunal Federal (STF), governadores, prefeitos, entre outros, a pena será aumentada de um terço à metade.',
       },
       {
-        type: 'paragraph',
-        data: 'Lei 13.104 de 9 de março de 2015: Lei do Feminicídio',
+        type: 'title',
+        data: '• Lei 13.104 de 9 de março de 2015: Lei do Feminicídio',
       },
       {
         type: 'paragraph',
@@ -1041,43 +1044,45 @@ export default [
           '- Feminicídio é uma palavra que define o homicídio de mulheres quando envolve menosprezo ou discriminação à condição de mulher e violência doméstica e familiar. É um crime de discriminação, cometido contra uma mulher pelo fato de ela ser mulher.',
       },
       {type: 'paragraph', data: '- Previsão do Código Penal:'},
-      {type: 'paragraph', data: 'Art. 121. Matar alguém: [...]'},
-      {type: 'paragraph', data: 'Homicídio qualificado'},
-      {type: 'paragraph', data: '§ 2° Se o homicídio é cometido: [...]'},
+      {type: 'quote', data: 'Art. 121. Matar alguém:'},
+      {type: 'quote', data: '[...]'},
+      {type: 'quote', data: 'Homicídio qualificado'},
+      {type: 'quote', data: '§ 2° Se o homicídio é cometido: '},
+      {type: 'quote', data: '[...]'},
       {
-        type: 'paragraph',
+        type: 'quote',
         data: 'Feminicídio       (Incluído pela Lei nº 13.104, de 2015)',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'VI - contra a mulher por razões da condição de sexo feminino:      (Incluído pela Lei nº 13.104, de 2015)',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'VII – contra autoridade ou agente descrito nos arts. 142 e 144 da Constituição Federal, integrantes do sistema prisional e da Força Nacional de Segurança Pública, no exercício da função ou em decorrência dela, ou contra seu cônjuge, companheiro ou parente consanguíneo até terceiro grau, em razão dessa condição:     (Incluído pela Lei nº 13.142, de 2015)',
       },
-      {type: 'paragraph', data: 'Pena - reclusão, de doze a trinta anos.'},
+      {type: 'quote', data: 'Pena - reclusão, de doze a trinta anos.'},
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           '§ 2º-A Considera-se que há razões de condição de sexo feminino quando o crime envolve:      (Incluído pela Lei nº 13.104, de 2015)',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'I - violência doméstica e familiar;      (Incluído pela Lei nº 13.104, de 2015)',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'II - menosprezo ou discriminação à condição de mulher.      (Incluído pela Lei nº 13.104, de 2015)',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Lei 13.718 de 24 de setembro de 2018: Lei da Importunação Sexual',
+          '• Lei 13.718 de 24 de setembro de 2018: Lei da Importunação Sexual',
       },
       {
         type: 'paragraph',
@@ -1090,33 +1095,28 @@ export default [
           '- Alguns dos casos mais comuns são de casos de abuso sofridos por mulheres em meios de transporte coletivo, como ônibus e metrô.',
       },
       {type: 'paragraph', data: '- No Código Penal:'},
-      {type: 'paragraph', data: 'Importunação sexual'},
+      {type: 'quote', data: 'Importunação sexual'},
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'Art. 215-A. Praticar contra alguém e sem a sua anuência ato libidinoso com o objetivo de satisfazer a própria lascívia ou a de terceiro:',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o ato não constitui crime mais grave.”',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
-          '“Art. 217-A. .............................................................',
+          '“Art. 217-A. ...................................................................',
       },
       {
-        type: 'paragraph',
-        data:
-          '.........................................................................................',
-      },
-      {
-        type: 'paragraph',
+        type: 'quote',
         data: '§ 5º As penas previstas no caput e nos §§ 1º,',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           '3º e 4º deste artigo aplicam-se independentemente do consentimento da vítima ou do fato de ela ter mantido relações sexuais anteriormente ao crime.” (NR)',
       },
@@ -1136,45 +1136,48 @@ export default [
           '- Existe ainda um aumento de pena para esse crime, se o agente que repassa a imagem mantém ou mantinha relação íntima de afeto com a pessoa da foto ou vídeo divulgado. Ocorre, geralmente, ao término do relacionamento quando um dos parceiros divulga como forma de vingança ou revanche fotografias ou imagens nas quais o outro(a) aparece nu ou em cenas de sexo.',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           '“ Divulgação de cena de estupro ou de cena de estupro de vulnerável, de cena de sexo ou de pornografia',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'Art. 218-C. Oferecer, trocar, disponibilizar, transmitir, vender ou expor à venda, distribuir, publicar ou divulgar, por qualquer meio - inclusive por meio de comunicação de massa ou sistema de informática ou telemática -, fotografia, vídeo ou outro registro audiovisual que contenha cena de estupro ou de estupro de vulnerável ou que faça apologia ou induza a sua prática, ou, sem o consentimento da vítima, cena de sexo, nudez ou pornografia:',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'Pena - reclusão, de 1 (um) a 5 (cinco) anos, se o fato não constitui crime mais grave.',
       },
-      {type: 'paragraph', data: 'Aumento de pena'},
+      {type: 'quote', data: 'Aumento de pena'},
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           '§ 1º A pena é aumentada de 1/3 (um terço) a 2/3 (dois terços) se o crime é praticado por agente que mantém ou tenha mantido relação íntima de afeto com a vítima ou com o fim de vingança ou humilhação.',
       },
-      {type: 'paragraph', data: 'Exclusão de ilicitude'},
+      {type: 'quote', data: 'Exclusão de ilicitude'},
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           '§ 2º Não há crime quando o agente pratica as condutas descritas no caput deste artigo em publicação de natureza jornalística, científica, cultural ou acadêmica com a adoção de recurso que impossibilite a identificação da vítima, ressalvada sua prévia autorização, caso seja maior de 18 (dezoito) anos.”',
       },
-      {type: 'paragraph', data: 'Lei 13.772 de 19 de dezembro de 2018:'},
-      {type: 'paragraph', data: 'Registro não autorizado da intimidade sexual'},
+      {type: 'title', data: '• Lei 13.772 de 19 de dezembro de 2018:'},
       {
-        type: 'paragraph',
+        type: 'quote',
+        data: 'Registro não autorizado da intimidade sexual',
+      },
+      {
+        type: 'quote',
         data:
           'Art. 216-B . Produzir, fotografar, filmar ou registrar, por qualquer meio, conteúdo com cena de nudez ou ato sexual ou libidinoso de caráter íntimo e privado sem autorização dos participantes:',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data: 'Pena - detenção, de 6 (seis) meses a 1 (um) ano, e multa.',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'Parágrafo único. Na mesma pena incorre quem realiza montagem em fotografia, vídeo, áudio ou qualquer outro registro com o fim de incluir pessoa em cena de nudez ou ato sexual ou libidinoso de caráter íntimo.”',
       },
@@ -1186,19 +1189,19 @@ export default [
     icon: previdenciario,
     content: [
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Ramo do Direito que tem por objetivo o estudo e a regulamentação da seguridade social.',
+          '• Ramo do Direito que tem por objetivo o estudo e a regulamentação da seguridade social.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Seguridade Social é o conjunto integrado de ações de iniciativa dos Poderes Públicos e da Sociedade, destinadas a assegurar os direitos relativos à saúde, previdência e à assistência social.',
+          '• Seguridade Social é o conjunto integrado de ações de iniciativa dos Poderes Públicos e da Sociedade, destinadas a assegurar os direitos relativos à saúde, previdência e à assistência social.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Previdência Social: É um direito social. Pode ser entendida como seguro social que o trabalhador participa por meio de contribuições. É o sistema público que garante as aposentadorias e tem por missão proteger os trabalhadores contra os riscos econômicos como a perda de rendimentos por conta de doença, invalidez, entre outros. Mas não é apenas aposentadorias ele abrange, mas de benefícios como auxílio-doença, salário-maternidade, pensão por morte.',
+          '• Previdência Social: É um direito social. Pode ser entendida como seguro social que o trabalhador participa por meio de contribuições. É o sistema público que garante as aposentadorias e tem por missão proteger os trabalhadores contra os riscos econômicos como a perda de rendimentos por conta de doença, invalidez, entre outros. Mas não é apenas aposentadorias ele abrange, mas de benefícios como auxílio-doença, salário-maternidade, pensão por morte.',
       },
       {
         type: 'paragraph',
@@ -1206,121 +1209,121 @@ export default [
           '- Caráter contributivo: para ter direito aos benefícios previdenciários é necessário contribuir. Essa contribuição é obrigatória para quem exerce atividade laborativa remunerada.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Regime Geral de Previdência Social (RGPS): administrado pelo INSS',
+          '• Regime Geral de Previdência Social (RGPS): administrado pelo INSS',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
           '- Segurados Obrigatórios: empregados, empregados domésticos, contribuintes individuais, trabalhador avulso, segurados especiais.',
       },
       {type: 'paragraph', data: '- Segurados Facultativos'},
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Regime Próprio da Previdência Social (RPPS): é o regime de previdência dos servidores públicos mantidos pelos entes da federação (União, Estados, Distrito Federal e Municípios).',
+          '• Regime Próprio da Previdência Social (RPPS): é o regime de previdência dos servidores públicos mantidos pelos entes da federação (União, Estados, Distrito Federal e Municípios).',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Tempo de contribuição: tempo que houve atividade abrangida pela Previdência Social.',
+          '• Tempo de contribuição: tempo que houve atividade abrangida pela Previdência Social.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Salário de contribuição: é a base de cálculo da contribuição dos segurados.',
+          '• Salário de contribuição: é a base de cálculo da contribuição dos segurados.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Aposentadoria por idade: devida aos segurados que atingirem determinada faixa etária. De forma geral, para quem começou a trabalhar antes da Reforma de 2019, é necessário cumprir 65 anos se homem e 60 anos se mulher. Para quem ingressou no sistema depois da Reforma, precisará cumprir:',
+          '• Aposentadoria por idade: devida aos segurados que atingirem determinada faixa etária. De forma geral, para quem começou a trabalhar antes da Reforma de 2019, é necessário cumprir 65 anos se homem e 60 anos se mulher. Para quem ingressou no sistema depois da Reforma, precisará cumprir:',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: '-Para mulheres: 62 anos + 15 anos de contribuição;',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: '-Para homens: 65 anos + 20 anos de contribuição.',
       },
       {type: 'paragraph', data: '- Aposentadoria Rural:'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: '-Homem: 60 Anos de Idade + 15 Anos de Contribuição',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: '-Mulher: 55 Anos de Idade + 15 Anos de Contribuição',
       },
       {type: 'paragraph', data: '- Aposentadoria dos Professores:'},
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: '- Homem: 60 Anos de Idade + 25 Anos de Contribuição;',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data: '- Mulher: 57 Anos de Idade + 25 Anos de Contribuição;',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Aposentadoria por tempo de contribuição: concedida ao segurado que completar determinado tempo de contribuição à Previdência Social. Antes da reforma de 2019, era necessário ao cidadão que comprovar o tempo total de 35 anos de contribuição, se homem, ou 30 anos de contribuição, se mulher. Com a reforma de 2019, foi estabelecida uma idade mínima para se aposentar, ou seja, não será possível aposentadoria por tempo de contribuição.',
+          '• Aposentadoria por tempo de contribuição: concedida ao segurado que completar determinado tempo de contribuição à Previdência Social. Antes da reforma de 2019, era necessário ao cidadão que comprovar o tempo total de 35 anos de contribuição, se homem, ou 30 anos de contribuição, se mulher. Com a reforma de 2019, foi estabelecida uma idade mínima para se aposentar, ou seja, não será possível aposentadoria por tempo de contribuição.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Aposentadoria Especial: é um benefício concedido ao cidadão que trabalha exposto a agentes nocivos à saúde, como calor ou ruído, de forma contínua e ininterrupta, em níveis de exposição acima dos limites estabelecidos em legislação própria. Para os que se filiaram no sistema após a entrada em vigor da Reforma, devem preencher os seguintes requisitos:',
+          '• Aposentadoria Especial: é um benefício concedido ao cidadão que trabalha exposto a agentes nocivos à saúde, como calor ou ruído, de forma contínua e ininterrupta, em níveis de exposição acima dos limites estabelecidos em legislação própria. Para os que se filiaram no sistema após a entrada em vigor da Reforma, devem preencher os seguintes requisitos:',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           '1. 55 anos de idade para atividade especial de 15 anos de tempo de contribuição;',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           '2. 58 anos de idade para atividade especial de 20 anos de tempo de contribuição;',
       },
       {
-        type: 'paragraph',
+        type: 'subItem',
         data:
           '3. 60 anos de idade para atividade especial de 25 anos de tempo de contribuição',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Aposentadoria por invalidez: É o benefício concedido aos trabalhadores considerados pela perícia do INSS, total e definitivamente incapazes para o trabalho, seja por motivo de doença ou acidente.',
+          '• Aposentadoria por invalidez: É o benefício concedido aos trabalhadores considerados pela perícia do INSS, total e definitivamente incapazes para o trabalho, seja por motivo de doença ou acidente.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Auxílio acidente:  é um benefício de natureza indenizatória pago ao segurado do INSS quando, em decorrência de acidente, apresentar sequela permanente que reduza sua capacidade para o trabalho. Essa situação é avaliada pela perícia médica do INSS.',
+          '• Auxílio acidente:  é um benefício de natureza indenizatória pago ao segurado do INSS quando, em decorrência de acidente, apresentar sequela permanente que reduza sua capacidade para o trabalho. Essa situação é avaliada pela perícia médica do INSS.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Auxílio doença: é um benefício por incapacidade devido ao segurado do INSS que comprove, em perícia médica, estar temporariamente incapaz para o trabalho em decorrência de doença ou acidente.',
+          '• Auxílio doença: é um benefício por incapacidade devido ao segurado do INSS que comprove, em perícia médica, estar temporariamente incapaz para o trabalho em decorrência de doença ou acidente.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Auxílio Reclusão: é o benefício devido aos dependentes do segurado da Previdência Social que vier a ser preso.',
+          '• Auxílio Reclusão: é o benefício devido aos dependentes do segurado da Previdência Social que vier a ser preso.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Salário Família:  é um valor pago ao empregado, inclusive o doméstico, e ao trabalhador avulso, de acordo com o número de filhos (até 14 anos) ou equiparados que possua.',
+          '• Salário Família:  é um valor pago ao empregado, inclusive o doméstico, e ao trabalhador avulso, de acordo com o número de filhos (até 14 anos) ou equiparados que possua.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Salário Maternidade: benefício devido a pessoa que se afasta de sua atividade, por motivo de nascimento de filho, aborto não criminoso, adoção ou guarda judicial para fins de adoção.',
+          '• Salário Maternidade: benefício devido a pessoa que se afasta de sua atividade, por motivo de nascimento de filho, aborto não criminoso, adoção ou guarda judicial para fins de adoção.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Pensão por morte: é um benefício previdenciário pago mensalmente aos dependentes do falecido, seja ele aposentado ou não na hora do óbito.',
+          '• Pensão por morte: é um benefício previdenciário pago mensalmente aos dependentes do falecido, seja ele aposentado ou não na hora do óbito.',
       },
     ],
   },
@@ -1330,14 +1333,14 @@ export default [
     icon: familia,
     content: [
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Ramo do Direito Civil que tem por objetivo regular as regras, obrigações e direito no convívio familiar. São casos envolvendo casamento, separação, divórcio, guarda dos filhos, pensão alimentícia, adoção. Ainda trata do reconhecimento de união estável, partilha de bens, testamentos e inventários, entre outros.',
+          '• Ramo do Direito Civil que tem por objetivo regular as regras, obrigações e direito no convívio familiar. São casos envolvendo casamento, separação, divórcio, guarda dos filhos, pensão alimentícia, adoção. Ainda trata do reconhecimento de união estável, partilha de bens, testamentos e inventários, entre outros.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Casamento: estabelece comunhão plena de vida, com base na igualdade de direitos e deveres dos cônjuges (casal).',
+          '• Casamento: estabelece comunhão plena de vida, com base na igualdade de direitos e deveres dos cônjuges (casal).',
       },
       {
         type: 'paragraph',
@@ -1365,14 +1368,14 @@ export default [
           '- São deveres de ambos os cônjuges: fidelidade recíproca; vida em comum, no domicílio conjugal; mútua assistência; sustento, guarda e educação dos filhos; respeito e consideração mútuos.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'União Estável: relação entre duas pessoas que se caracteriza como uma convivência pública, contínua e duradoura e que tem o objetivo de constituição familiar. Assim como o casamento, os tribunais brasileiros já consolidaram entendimento que a união estável se aplica a pessoas do mesmo sexo. Não há prazo para se estabelecer a união estável. Basta que o homem e a mulher convivam como se casados com os mesmos deveres inerentes ao casamento.',
+          '• União Estável: relação entre duas pessoas que se caracteriza como uma convivência pública, contínua e duradoura e que tem o objetivo de constituição familiar. Assim como o casamento, os tribunais brasileiros já consolidaram entendimento que a união estável se aplica a pessoas do mesmo sexo. Não há prazo para se estabelecer a união estável. Basta que o homem e a mulher convivam como se casados com os mesmos deveres inerentes ao casamento.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Regimes de Bens: são as regras relativas ao patrimônio dos cônjuges/companheiros, delimitando as diretrizes que deverão ser seguidas por eles enquanto o casamento existir, ou quando chegar ao seu fim.',
+          '• Regimes de Bens: são as regras relativas ao patrimônio dos cônjuges/companheiros, delimitando as diretrizes que deverão ser seguidas por eles enquanto o casamento existir, ou quando chegar ao seu fim.',
       },
       {
         type: 'paragraph',
@@ -1400,9 +1403,9 @@ export default [
           '- Regime de Separação Total de Bens: os bens serão sempre do cônjuge que os tiver adquirido, não importando se antes ou depois da celebração do casamento;',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Divórcio: processo legal que põe fim ao vínculo matrimonial.  Pode ser tanto judicial como extrajudicial.',
+          '• Divórcio: processo legal que põe fim ao vínculo matrimonial.  Pode ser tanto judicial como extrajudicial.',
       },
       {
         type: 'paragraph',
@@ -1415,14 +1418,14 @@ export default [
           '-Já no processo de um Divórcio Judicial, será um juiz quem tomará as decisões.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Poder Familiar: direitos e deveres que são atribuídos aos pais em relação aos filhos menores para sua criação, formação e administração dos seus bens. O Poder Familiar pode ser suspenso quando houver abuso do poder familiar; faltar com a referida obrigação; arruinar os bens dos filhos e outras.',
+          '• Poder Familiar: direitos e deveres que são atribuídos aos pais em relação aos filhos menores para sua criação, formação e administração dos seus bens. O Poder Familiar pode ser suspenso quando houver abuso do poder familiar; faltar com a referida obrigação; arruinar os bens dos filhos e outras.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Guarda: obriga a prestação de assistência material, moral e educacional à criança ou adolescente.',
+          '• Guarda: obriga a prestação de assistência material, moral e educacional à criança ou adolescente.',
       },
       {
         type: 'paragraph',
@@ -1445,9 +1448,9 @@ export default [
           '- Guarda compartilhada:  é aquela exercida por ambos os genitores simultaneamente. Assim, ambos são responsáveis por, em conjunto, tomar todas as decisões em relação aos filhos e, também, dividem igualmente as responsabilidades no que diz respeito a eles. O tempo de convívio dos filhos com os genitores deve se dar de maneira equilibrada, as decisões devem ser tomadas de forma conjunta. É preciso buscar algum tipo de comunicação, mesmo que o litígio esteja acontecendo.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
-          'Alienação Parental:  interferência na formação psicológica da criança ou do adolescente promovida ou induzida por um dos genitores, pelos avós ou por aqueles que tenham a criança ou o adolescente sob sua autoridade, guarda ou vigilância para que repudie o genitor ou que cause prejuízo ao estabelecimento ou à manutenção de vínculos com este.',
+          '• Alienação Parental:  interferência na formação psicológica da criança ou do adolescente promovida ou induzida por um dos genitores, pelos avós ou por aqueles que tenham a criança ou o adolescente sob sua autoridade, guarda ou vigilância para que repudie o genitor ou que cause prejuízo ao estabelecimento ou à manutenção de vínculos com este.',
       },
       {
         type: 'paragraph',
@@ -1457,12 +1460,12 @@ export default [
       {
         type: 'paragraph',
         data:
-          '-A Lei 13.431, de 4 de abril de 2017, prevê a alienação parental no rol das formas de violência a crianças e adolescentes (artigo 4º, II, b), bem como prevê a possibilidade de aplicação de medidas protetivas típicas da Lei Maria da Penha para a proteção da criança e do adolescente vítima e/ou testemunha de violência.',
+          '• -A Lei 13.431, de 4 de abril de 2017, prevê a alienação parental no rol das formas de violência a crianças e adolescentes (artigo 4º, II, b), bem como prevê a possibilidade de aplicação de medidas protetivas típicas da Lei Maria da Penha para a proteção da criança e do adolescente vítima e/ou testemunha de violência.',
       },
       {
         type: 'paragraph',
         data:
-          'Alimentos: a pensão alimentícia, além de ser um recurso necessário ao sustento da pessoa, é indispensável para a plena realização intelectual, moral e social. Portanto, serve para a alimentação, vestuário, habitação, saúde, educação, lazer e outros. Ela será fixada na proporção das necessidades do alimentado, respeitadas as possibilidades de quem paga. Não existem valores pré-definidos em lei, podendo ser fixados em salários mínimos ou percentual sobre os rendimentos de quem paga com desconto direito na folha de pagamento. O valor poderá ser alterado, reduzido ou aumentado sempre que houver mudanças nas condições das partes. São devidos entre pais e filhos, porém, o direito de exigir e a obrigação de prestar alimentos podem ser estendidos a outras pessoas como avós, tios, irmãos.',
+          '•  Alimentos: a pensão alimentícia, além de ser um recurso necessário ao sustento da pessoa, é indispensável para a plena realização intelectual, moral e social. Portanto, serve para a alimentação, vestuário, habitação, saúde, educação, lazer e outros. Ela será fixada na proporção das necessidades do alimentado, respeitadas as possibilidades de quem paga. Não existem valores pré-definidos em lei, podendo ser fixados em salários mínimos ou percentual sobre os rendimentos de quem paga com desconto direito na folha de pagamento. O valor poderá ser alterado, reduzido ou aumentado sempre que houver mudanças nas condições das partes. São devidos entre pais e filhos, porém, o direito de exigir e a obrigação de prestar alimentos podem ser estendidos a outras pessoas como avós, tios, irmãos.',
       },
     ],
   },
@@ -1472,7 +1475,7 @@ export default [
     icon: familia,
     content: [
       {
-        type: 'paragraph',
+        type: 'title',
         data: 'Lei 11.340 de 7 de Agosto de 2006: Lei Maria da Penha',
       },
       {
@@ -1521,89 +1524,89 @@ export default [
           '- Medidas Protetivas: medidas de urgência a favor da vítima e contra o agressor.',
       },
       {
-        type: 'paragraph',
+        type: 'titleCenter',
         data: 'Das Medidas Protetivas de Urgência que Obrigam o Agressor:',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Suspensão da posse ou restrição do porte de armas, com comunicação ao órgão competente.',
+          '‣ Suspensão da posse ou restrição do porte de armas, com comunicação ao órgão competente.',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Afastamento do lar, domicílio ou local de convivência com a ofendida;',
+          '‣ Afastamento do lar, domicílio ou local de convivência com a ofendida;',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Proibição de determinadas condutas, entre as quais: a) aproximação da ofendida, de seus familiares e das testemunhas, fixando o limite mínimo de distância entre estes e o agressor; b) contato com a ofendida, seus familiares e testemunhas por qualquer meio de comunicação; c) frequentação de determinados lugares a fim de preservar a integridade física e psicológica da ofendida;',
+          '‣ Proibição de determinadas condutas, entre as quais: a) aproximação da ofendida, de seus familiares e das testemunhas, fixando o limite mínimo de distância entre estes e o agressor; b) contato com a ofendida, seus familiares e testemunhas por qualquer meio de comunicação; c) frequentação de determinados lugares a fim de preservar a integridade física e psicológica da ofendida;',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Restrição ou suspensão de visitas aos dependentes menores, ouvida a equipe de atendimento multidisciplinar ou serviço similar;',
+          '‣ Restrição ou suspensão de visitas aos dependentes menores, ouvida a equipe de atendimento multidisciplinar ou serviço similar;',
       },
       {
-        type: 'paragraph',
-        data: 'Prestação de alimentos provisionais ou provisórios.',
+        type: 'item',
+        data: '‣ Prestação de alimentos provisionais ou provisórios.',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Comparecimento do agressor a programas de recuperação e reeducação.',
+          '‣ Comparecimento do agressor a programas de recuperação e reeducação.',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Acompanhamento psicossocial do agressor, por meio de atendimento individual e/ou em grupo de apoio.',
+          '‣ Acompanhamento psicossocial do agressor, por meio de atendimento individual e/ou em grupo de apoio.',
       },
       {
-        type: 'paragraph',
+        type: 'titleCenter',
         data: 'Das Medidas Protetivas de Urgência à Ofendida',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Encaminhar a ofendida e seus dependentes a programa oficial ou comunitário de proteção ou de atendimento;',
+          '‣ Encaminhar a ofendida e seus dependentes a programa oficial ou comunitário de proteção ou de atendimento;',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Determinar a recondução da ofendida e a de seus dependentes ao respectivo domicílio, após afastamento do agressor;',
+          '‣ Determinar a recondução da ofendida e a de seus dependentes ao respectivo domicílio, após afastamento do agressor;',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Determinar o afastamento da ofendida do lar, sem prejuízo dos direitos relativos a bens, guarda dos filhos e alimentos;',
+          '‣ Determinar o afastamento da ofendida do lar, sem prejuízo dos direitos relativos a bens, guarda dos filhos e alimentos;',
       },
-      {type: 'paragraph', data: 'Determinar a separação de corpos.'},
+      {type: 'item', data: 'Determinar a separação de corpos.'},
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Determinar a matrícula dos dependentes da ofendida em instituição de educação básica mais próxima do seu domicílio, ou a transferência deles para essa instituição, independentemente da existência de vaga.',
+          '‣ Determinar a matrícula dos dependentes da ofendida em instituição de educação básica mais próxima do seu domicílio, ou a transferência deles para essa instituição, independentemente da existência de vaga.',
       },
       {type: 'paragraph', data: '- Onde procurar ajuda:'},
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Ligue 180 tem por objetivo receber denúncias de violência, reclamações sobre os serviços da rede de atendimento à mulher e de orientar as mulheres sobre seus direitos e sobre a legislação vigente, encaminhando-as para outros serviços quando necessário.',
+          '‣ Ligue 180 tem por objetivo receber denúncias de violência, reclamações sobre os serviços da rede de atendimento à mulher e de orientar as mulheres sobre seus direitos e sobre a legislação vigente, encaminhando-as para outros serviços quando necessário.',
       },
       {
-        type: 'paragraph',
-        data: 'Aplicativo do Ligue 180 para denúncias de violência doméstica',
+        type: 'item',
+        data: '‣ Aplicativo do Ligue 180 para denúncias de violência doméstica',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'O 190 é um serviço de emergência da Polícia Militar que atende aos cidadãos',
+          '‣ O 190 é um serviço de emergência da Polícia Militar que atende aos cidadãos',
       },
       {
-        type: 'paragraph',
+        type: 'item',
         data:
-          'Existem Núcleos da Mulher nas Defensorias Públicas na maior parte dos estados, assim como Promotorias Especializadas e Juizados Especiais de Violência Doméstica e Familiar contra a Mulher.',
+          '‣ Existem Núcleos da Mulher nas Defensorias Públicas na maior parte dos estados, assim como Promotorias Especializadas e Juizados Especiais de Violência Doméstica e Familiar contra a Mulher.',
       },
-      {type: 'paragraph', data: '“Botão do Pânico” – Aplicativo Salve Maria'},
+      {type: 'item', data: '‣ “Botão do Pânico” – Aplicativo Salve Maria'},
       {
         type: 'paragraph',
         data:
@@ -1620,24 +1623,24 @@ export default [
           '- Lei 13.894 de 29 de outubro de 2019: altera a Lei Maria da Penha para prever a competência dos Juizados de Violência Doméstica e Familiar contra a Mulher para a ação de divórcio, separação, anulação de casamento ou dissolução de união estável nos casos de violência e para tornar obrigatória a informação às vítimas acerca da possibilidade de os serviços de assistência judiciária ajuizarem as ações mencionadas; e altera a Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), para prever a competência do foro do domicílio da vítima de violência doméstica e familiar para a ação de divórcio, separação judicial, anulação de casamento e reconhecimento da união estável a ser dissolvida, para determinar a intervenção obrigatória do Ministério Público nas ações de família em que figure como parte vítima de violência doméstica e familiar, e para estabelecer a prioridade de tramitação dos procedimentos judiciais em que figure como parte vítima de violência doméstica e familiar.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
           'Lei nº 8.069 de 13 de Julho de 1990: Estatuto da Criança e do Adolescente',
       },
       {
         type: 'paragraph',
         data:
-          'Para a Lei, considera-se criança a pessoa até 12 anos incompletos e adolescente aquela entre 12 e 18.',
+          '• Para a Lei, considera-se criança a pessoa até 12 anos incompletos e adolescente aquela entre 12 e 18.',
       },
       {
         type: 'paragraph',
         data:
-          'A criança e o adolescente possuem todos os direitos fundamentais inerentes à pessoa humana, tendo todas as garantias para o desenvolvimento físico, mental, moral, espiritual e social, em condições de liberdade e de dignidade, sem discriminação de nascimento, situação familiar, idade, sexo, raça, etnia ou cor, religião ou crença, deficiência, condição pessoal de desenvolvimento e aprendizagem, condição econômica, ambiente social, região e local de moradia ou outra condição que diferencie as pessoas, as famílias ou a comunidade em que vivem.',
+          '• A criança e o adolescente possuem todos os direitos fundamentais inerentes à pessoa humana, tendo todas as garantias para o desenvolvimento físico, mental, moral, espiritual e social, em condições de liberdade e de dignidade, sem discriminação de nascimento, situação familiar, idade, sexo, raça, etnia ou cor, religião ou crença, deficiência, condição pessoal de desenvolvimento e aprendizagem, condição econômica, ambiente social, região e local de moradia ou outra condição que diferencie as pessoas, as famílias ou a comunidade em que vivem.',
       },
       {
         type: 'paragraph',
         data:
-          'Adoção: é o procedimento legal no qual uma criança ou um adolescente se tornam filhos de uma pessoa ou de um casal, com os mesmos direitos que um filho biológico tem.',
+          '• Adoção: é o procedimento legal no qual uma criança ou um adolescente se tornam filhos de uma pessoa ou de um casal, com os mesmos direitos que um filho biológico tem.',
       },
       {
         type: 'paragraph',
@@ -1652,75 +1655,65 @@ export default [
       {
         type: 'paragraph',
         data:
-          'Cabe aos pais o dever de sustento, guarda e educação dos filhos menores. Igualmente, os pais têm a obrigação de matricular seus filhos na rede regular de ensino, tendo a previsão no Código Penal do crime abandono intelectual: deixar, sem justa causa, de prover à instrução primária de filho em idade escolar. Pena: Detenção, de quinze dias a um mês, ou multa.',
+          '• Cabe aos pais o dever de sustento, guarda e educação dos filhos menores. Igualmente, os pais têm a obrigação de matricular seus filhos na rede regular de ensino, tendo a previsão no Código Penal do crime abandono intelectual: deixar, sem justa causa, de prover à instrução primária de filho em idade escolar. Pena: Detenção, de quinze dias a um mês, ou multa.',
       },
       {
         type: 'paragraph',
         data:
-          'Os crimes praticados por adolescentes entre 12 e 18 anos incompletos são denominados atos infracionais passíveis de aplicação de medidas socioeducativas. Os dispositivos do Estatuto da Criança e do Adolescente disciplinam situações nas quais tanto o responsável, quanto o menor devem ser instados a modificarem atitudes, definindo sanções para os casos mais graves.',
+          '• Os crimes praticados por adolescentes entre 12 e 18 anos incompletos são denominados atos infracionais passíveis de aplicação de medidas socioeducativas. Os dispositivos do Estatuto da Criança e do Adolescente disciplinam situações nas quais tanto o responsável, quanto o menor devem ser instados a modificarem atitudes, definindo sanções para os casos mais graves.',
       },
       {
         type: 'paragraph',
         data:
-          'Também prevê sanções para aquelas crianças e adolescentes que cometem infrações. Estão previstas medidas socioeducativas como: advertência, obrigação de reparar o dano, prestação de serviços à comunidade, liberdade assistida, inserção em regime de semi-liberdade, até a internação. Esta não deve durar mais de três anos e ser realizada em estabelecimento adequado que vise a recuperação pessoal.',
+          '• Também prevê sanções para aquelas crianças e adolescentes que cometem infrações. Estão previstas medidas socioeducativas como: advertência, obrigação de reparar o dano, prestação de serviços à comunidade, liberdade assistida, inserção em regime de semi-liberdade, até a internação. Esta não deve durar mais de três anos e ser realizada em estabelecimento adequado que vise a recuperação pessoal.',
       },
       {
         type: 'paragraph',
         data:
-          'qualquer pessoa poderá denunciar aos órgãos que compõem o Sistema de Garantia de Direitos (SGD) (Conselho Tutelar de sua cidade, o Ministério Público, o Juizado da Infância e Juventude e a Delegacia Especializada) - notícia de fato que constitua ameaça ou violação dos direitos das crianças e dos adolescentes, por exemplo, maus-tratos, castigos imoderados, abusos sexuais ou qualquer outro tipo de violência.',
+          '• qualquer pessoa poderá denunciar aos órgãos que compõem o Sistema de Garantia de Direitos (SGD) (Conselho Tutelar de sua cidade, o Ministério Público, o Juizado da Infância e Juventude e a Delegacia Especializada) - notícia de fato que constitua ameaça ou violação dos direitos das crianças e dos adolescentes, por exemplo, maus-tratos, castigos imoderados, abusos sexuais ou qualquer outro tipo de violência.',
       },
       {
         type: 'paragraph',
         data:
-          'DISQUE 100 - Disque-denúncia para o combate contra a violência e abuso sexual contra crianças e adolescentes (ligação gratuita de qualquer lugar do Brasil). Qualquer denúncia pode também procurar p Conselho Tutelar do seu município e/ou o Ministério Público.',
+          '• DISQUE 100 - Disque-denúncia para o combate contra a violência e abuso sexual contra crianças e adolescentes (ligação gratuita de qualquer lugar do Brasil). Qualquer denúncia pode também procurar p Conselho Tutelar do seu município e/ou o Ministério Público.',
       },
       {
-        type: 'paragraph',
+        type: 'title',
         data:
           'Lei nº 13.834, de 4 de Junho de 2019: Lei das Fake News Eleitorais',
       },
       {
         type: 'paragraph',
         data:
-          'Altera o Código Eleitoral para tipificar o crime de denunciação caluniosa com finalidade eleitoral.',
+          '• Altera o Código Eleitoral para tipificar o crime de denunciação caluniosa com finalidade eleitoral.',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           'Art. 326-A.  Dar causa à instauração de investigação policial, de processo judicial, de investigação administrativa, de inquérito civil ou ação de improbidade administrativa, atribuindo a alguém a prática de crime ou ato infracional de que o sabe inocente, com finalidade eleitoral:',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data: 'Pena - reclusão, de 2 (dois) a 8 (oito) anos, e multa.',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           '§ 1º  A pena é aumentada de sexta parte, se o agente se serve do anonimato ou de nome suposto.',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data:
           '§ 2º  A pena é diminuída de metade, se a imputação é de prática de contravenção.',
       },
       {
-        type: 'paragraph',
+        type: 'quote',
         data: '§ 3º  (VETADO)”              (Promulgação partes vetadas)',
       },
       {
-        type: 'paragraph',
-        data: '"§ 3º  Incorrerá nas mesmas penas deste artigo quem',
-      },
-      {
-        type: 'paragraph',
+        type: 'quote',
         data:
-          'comprovadamente ciente da inocência do denunciado e com finalidade eleitoral',
-      },
-      {type: 'paragraph', data: 'divulga ou propala'},
-      {type: 'paragraph', data: 'por qualquer meio ou forma'},
-      {
-        type: 'paragraph',
-        data: 'o ato ou fato que lhe foi falsamente atribuído.',
+          '§ 3º  Incorrerá nas mesmas penas deste artigo quem comprovadamente ciente da inocência do denunciado e com finalidade eleitoral divulga ou propala por qualquer meio ou forma o ato ou fato que lhe foi falsamente atribuído.',
       },
     ],
   },

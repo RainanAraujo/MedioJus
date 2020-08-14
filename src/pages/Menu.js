@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   buttonOtherOptions: {
-    width: wp('85%'),
+    width: wp('89%'),
     borderRadius: 10,
     display: 'flex',
     flexDirection: 'row',
@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     backgroundColor: '#fff',
     paddingVertical: 20,
+    margin: wp('1.5%'),
   },
   textButtonOtherOptions: {
     fontFamily: 'Roboto-Regular',

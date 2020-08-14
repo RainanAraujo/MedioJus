@@ -26,9 +26,19 @@ export default Page = ({navigation, route}) => {
               alignItems: 'center',
               justifyContent: 'center',
             }}>
-            <SharedElement id={`item.${id}.photo`}>
-              <Image source={icon} />
-            </SharedElement>
+            <View
+              style={{
+                height: 150,
+                width: 150,
+                borderRadius: 999,
+                alignItems: 'center',
+                justifyContent: 'center',
+                backgroundColor: '#000',
+              }}>
+              <SharedElement id={`item.${id}.photo`}>
+                <Image style={{width: 'auto', height: 'auto'}} source={icon} />
+              </SharedElement>
+            </View>
           </View>
 
           <ScrollView
@@ -45,6 +55,7 @@ export default Page = ({navigation, route}) => {
                         color: '#656565',
                         textAlign: 'justify',
                         lineHeight: 30,
+                        marginBottom: 10,
                       }}>
                       {item.data}
                     </Text>
@@ -54,10 +65,88 @@ export default Page = ({navigation, route}) => {
                     <Text
                       key={index}
                       style={{
-                        fontSize: 30,
-                        color: '#656565',
+                        fontSize: 20,
+                        color: '#494848',
                         textAlign: 'justify',
                         lineHeight: 40,
+                        fontFamily: 'Roboto-Bold',
+                        marginBottom: 10,
+                      }}>
+                      {item.data}
+                    </Text>
+                  );
+                } else if (item.type == 'item') {
+                  return (
+                    <Text
+                      key={index}
+                      style={{
+                        fontSize: 20,
+                        color: '#656565',
+                        textAlign: 'justify',
+                        lineHeight: 30,
+                        marginBottom: 10,
+                        marginLeft: 20,
+                      }}>
+                      {item.data}
+                    </Text>
+                  );
+                } else if (item.type == 'subItem') {
+                  return (
+                    <Text
+                      key={index}
+                      style={{
+                        fontSize: 20,
+                        color: '#656565',
+                        textAlign: 'justify',
+                        lineHeight: 30,
+                        marginBottom: 10,
+                        marginLeft: 50,
+                      }}>
+                      {item.data}
+                    </Text>
+                  );
+                } else if (item.type == 'subSubItem') {
+                  return (
+                    <Text
+                      key={index}
+                      style={{
+                        fontSize: 20,
+                        color: '#656565',
+                        textAlign: 'justify',
+                        lineHeight: 30,
+                        marginBottom: 10,
+                        marginLeft: 80,
+                      }}>
+                      {item.data}
+                    </Text>
+                  );
+                } else if (item.type == 'quote') {
+                  return (
+                    <Text
+                      key={index}
+                      style={{
+                        fontSize: 18,
+                        color: '#656565',
+                        textAlign: 'justify',
+                        lineHeight: 30,
+                        marginBottom: 10,
+                        marginLeft: 40,
+                        fontFamily: 'Roboto-Light',
+                      }}>
+                      {item.data}
+                    </Text>
+                  );
+                } else if (item.type == 'titleCenter') {
+                  return (
+                    <Text
+                      key={index}
+                      style={{
+                        fontSize: 20,
+                        color: '#494848',
+                        textAlign: 'center',
+                        fontFamily: 'Roboto-Bold',
+                        lineHeight: 30,
+                        marginBottom: 10,
                       }}>
                       {item.data}
                     </Text>
