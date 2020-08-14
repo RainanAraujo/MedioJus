@@ -4,11 +4,17 @@ import consumidor from '../images/consumidor.png';
 import familia from '../images/familia.png';
 import penal from '../images/penal.png';
 import previdenciario from '../images/previdencario.png';
-
+import bkConstituicao from '../images/bkConstituicao.png';
+import bkFamilia from '../images/bkFamilia.png';
+import bkConsumidor from '../images/bkConsumidor.png';
+import bkPenal from '../images/bkPenal.png';
+import bkPrevidencia from '../images/bkPrevidencia.png';
+import bkTrabalho from '../images/bkTrabalho.png';
 export default [
   {
     name: 'Direito Constitucional',
     type: 'topic',
+    background: bkConstituicao,
     icon: constitucional,
     content: [
       {
@@ -503,6 +509,7 @@ export default [
   {
     name: 'Direito do Trabalho',
     type: 'topic',
+    background: bkTrabalho,
     icon: direitoTrabalho,
     content: [
       {
@@ -819,6 +826,7 @@ export default [
   {
     name: 'Direito do Consumidor',
     type: 'topic',
+    background: bkConsumidor,
     icon: consumidor,
     content: [
       {
@@ -943,6 +951,7 @@ export default [
   {
     name: 'Direito Penal',
     type: 'topic',
+    background: bkPenal,
     icon: penal,
     content: [
       {
@@ -1186,6 +1195,7 @@ export default [
   {
     name: 'Direito Previdenciário',
     type: 'topic',
+    background: bkPrevidencia,
     icon: previdenciario,
     content: [
       {
@@ -1330,6 +1340,7 @@ export default [
   {
     name: 'Direito da Família',
     type: 'topic',
+    background: bkFamilia,
     icon: familia,
     content: [
       {

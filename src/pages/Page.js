@@ -1,10 +1,18 @@
 import {SharedElement} from 'react-navigation-shared-element';
 import React from 'react';
-import {StatusBar, Text, Image, Button, ScrollView, View} from 'react-native';
+import {
+  StatusBar,
+  Text,
+  Image,
+  Button,
+  ScrollView,
+  View,
+  ImageBackground,
+} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 
 export default Page = ({navigation, route}) => {
-  const {icon, name, content, id} = route.params.selected;
+  const {icon, name, content, id, background} = route.params.selected;
 
   return (
     <>
@@ -21,24 +29,44 @@ export default Page = ({navigation, route}) => {
           }}>
           <View
             style={{
-              height: 120,
               width: '100%',
               alignItems: 'center',
+
               justifyContent: 'center',
             }}>
-            <View
+            <ImageBackground
+              source={background}
               style={{
-                height: 150,
-                width: 150,
-                borderRadius: 999,
-                alignItems: 'center',
+                width: '100%',
+                resizeMode: 'cover',
                 justifyContent: 'center',
-                backgroundColor: '#000',
-              }}>
-              <SharedElement id={`item.${id}.photo`}>
-                <Image style={{width: 'auto', height: 'auto'}} source={icon} />
-              </SharedElement>
-            </View>
+              }}
+              imageStyle={{borderTopRightRadius: 30, borderTopLeftRadius: 30}}>
+              <View
+                style={{
+                  width: '100%',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  borderTopRightRadius: 30,
+                  borderTopLeftRadius: 30,
+                  backgroundColor: '#0455BF50',
+                }}>
+                <View
+                  style={{
+                    height: 120,
+                    width: 120,
+                    borderRadius: 999,
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    backgroundColor: '#fff',
+                    margin: 10,
+                  }}>
+                  <SharedElement id={`item.${id}.photo`}>
+                    <Image source={icon} />
+                  </SharedElement>
+                </View>
+              </View>
+            </ImageBackground>
           </View>
 
           <ScrollView

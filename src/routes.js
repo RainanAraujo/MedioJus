@@ -47,7 +47,8 @@ export default function Routes() {
             headerLeft: () => null,
             headerStyle: {
               backgroundColor: '#0455BF',
-              height: 100,
+              height: hp('12%'),
+              elevation: 0,
             },
             headerTitleAlign: 'left',
             headerRight: () => (
@@ -88,7 +89,8 @@ export default function Routes() {
             headerTintColor: '#ffffff',
             headerStyle: {
               backgroundColor: '#0455BF',
-              height: 100,
+              height: hp('11%'),
+              elevation: 0,
             },
             headerTitleAlign: 'left',
             headerLeft: () => (
