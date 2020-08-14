@@ -30,7 +30,6 @@ export default Page = ({navigation, route}) => {
             style={{
               width: '100%',
               alignItems: 'center',
-
               justifyContent: 'center',
             }}>
             <ImageBackground
