@@ -3,6 +3,7 @@ import direitoTrabalho from '../images/trabalho1.png';
 import consumidor from '../images/consumidor.png';
 import familia from '../images/familia.png';
 import penal from '../images/penal.png';
+import more from '../images/more.png';
 import previdenciario from '../images/previdencario.png';
 import bkConstituicao from '../images/bkConstituicao.png';
 import bkFamilia from '../images/bkFamilia.png';
@@ -10,6 +11,7 @@ import bkConsumidor from '../images/bkConsumidor.png';
 import bkPenal from '../images/bkPenal.png';
 import bkPrevidencia from '../images/bkPrevidencia.png';
 import bkTrabalho from '../images/bkTrabalho.png';
+import bkMore from '../images/bkMore.png';
 export default [
   {
     name: 'Direito Constitucional',
@@ -1211,7 +1213,8 @@ export default [
   {
     name: 'Outras Legislações',
     type: 'collection',
-    icon: familia,
+    background: bkMore,
+    icon: more,
     content: [
       {
         type: 'title',
