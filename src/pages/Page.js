@@ -4,9 +4,8 @@ import {
   StatusBar,
   Text,
   Image,
-  Button,
-  ScrollView,
   View,
+  FlatList,
   ImageBackground,
 } from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
@@ -69,120 +68,116 @@ export default Page = ({navigation, route}) => {
             </ImageBackground>
           </View>
 
-          <ScrollView
-            contentContainerStyle={{flexGrow: 1}}
-            showsVerticalScrollIndicator={false}>
-            <View style={{marginHorizontal: 25, marginBottom: 10}}>
-              {content.map((item, index) => {
-                if (item.type == 'paragraph') {
-                  return (
-                    <Text
-                      key={index}
-                      style={{
-                        fontSize: 20,
-                        color: '#656565',
-                        textAlign: 'justify',
-                        lineHeight: 30,
-                        marginBottom: 10,
-                      }}>
-                      {item.data}
-                    </Text>
-                  );
-                } else if (item.type == 'title') {
-                  return (
-                    <Text
-                      key={index}
-                      style={{
-                        fontSize: 20,
-                        color: '#494848',
-                        textAlign: 'justify',
-                        lineHeight: 40,
-                        fontFamily: 'Roboto-Bold',
-                        marginBottom: 10,
-                      }}>
-                      {item.data}
-                    </Text>
-                  );
-                } else if (item.type == 'item') {
-                  return (
-                    <Text
-                      key={index}
-                      style={{
-                        fontSize: 20,
-                        color: '#656565',
-                        textAlign: 'justify',
-                        lineHeight: 30,
-                        marginBottom: 10,
-                        marginLeft: 20,
-                      }}>
-                      {item.data}
-                    </Text>
-                  );
-                } else if (item.type == 'subItem') {
-                  return (
-                    <Text
-                      key={index}
-                      style={{
-                        fontSize: 20,
-                        color: '#656565',
-                        textAlign: 'justify',
-                        lineHeight: 30,
-                        marginBottom: 10,
-                        marginLeft: 50,
-                      }}>
-                      {item.data}
-                    </Text>
-                  );
-                } else if (item.type == 'subSubItem') {
-                  return (
-                    <Text
-                      key={index}
-                      style={{
-                        fontSize: 20,
-                        color: '#656565',
-                        textAlign: 'justify',
-                        lineHeight: 30,
-                        marginBottom: 10,
-                        marginLeft: 80,
-                      }}>
-                      {item.data}
-                    </Text>
-                  );
-                } else if (item.type == 'quote') {
-                  return (
-                    <Text
-                      key={index}
-                      style={{
-                        fontSize: 18,
-                        color: '#656565',
-                        textAlign: 'justify',
-                        lineHeight: 30,
-                        marginBottom: 10,
-                        marginLeft: 40,
-                        fontFamily: 'Roboto-Light',
-                      }}>
-                      {item.data}
-                    </Text>
-                  );
-                } else if (item.type == 'titleCenter') {
-                  return (
-                    <Text
-                      key={index}
-                      style={{
-                        fontSize: 20,
-                        color: '#494848',
-                        textAlign: 'center',
-                        fontFamily: 'Roboto-Bold',
-                        lineHeight: 30,
-                        marginBottom: 10,
-                      }}>
-                      {item.data}
-                    </Text>
-                  );
-                }
-              })}
-            </View>
-          </ScrollView>
+          <FlatList
+            data={content}
+            showsVerticalScrollIndicator={false}
+            style={{flex: 1, paddingHorizontal: 25}}
+            keyExtractor={({index}) => index}
+            renderItem={({item, index}) => {
+              if (item.type == 'paragraph') {
+                return (
+                  <Text
+                    key={index}
+                    style={{
+                      fontSize: 20,
+                      color: '#656565',
+                      textAlign: 'justify',
+                      lineHeight: 30,
+                      marginBottom: 10,
+                    }}>
+                    {item.data}
+                  </Text>
+                );
+              } else if (item.type == 'title') {
+                return (
+                  <Text
+                    style={{
+                      fontSize: 20,
+                      color: '#494848',
+                      textAlign: 'justify',
+                      lineHeight: 40,
+                      fontFamily: 'Roboto-Bold',
+                      marginBottom: 10,
+                    }}>
+                    {item.data}
+                  </Text>
+                );
+              } else if (item.type == 'item') {
+                return (
+                  <Text
+                    style={{
+                      fontSize: 20,
+                      color: '#656565',
+                      textAlign: 'justify',
+                      lineHeight: 30,
+                      marginBottom: 10,
+                      marginLeft: 20,
+                    }}>
+                    {item.data}
+                  </Text>
+                );
+              } else if (item.type == 'subItem') {
+                return (
+                  <Text
+                    style={{
+                      fontSize: 20,
+                      color: '#656565',
+                      textAlign: 'justify',
+                      lineHeight: 30,
+                      marginBottom: 10,
+                      marginLeft: 50,
+                    }}>
+                    {item.data}
+                  </Text>
+                );
+              } else if (item.type == 'subSubItem') {
+                return (
+                  <Text
+                    style={{
+                      fontSize: 20,
+                      color: '#656565',
+                      textAlign: 'justify',
+                      lineHeight: 30,
+                      marginBottom: 10,
+                      marginLeft: 80,
+                    }}>
+                    {item.data}
+                  </Text>
+                );
+              } else if (item.type == 'quote') {
+                return (
+                  <Text
+                    key={index}
+                    style={{
+                      fontSize: 18,
+                      color: '#656565',
+                      textAlign: 'justify',
+                      lineHeight: 30,
+                      marginBottom: 10,
+                      marginLeft: 40,
+                      fontFamily: 'Roboto-Light',
+                    }}>
+                    {item.data}
+                  </Text>
+                );
+              } else if (item.type == 'titleCenter') {
+                return (
+                  <Text
+                    style={{
+                      fontSize: 20,
+                      color: '#494848',
+                      textAlign: 'center',
+                      fontFamily: 'Roboto-Bold',
+                      lineHeight: 30,
+                      marginBottom: 10,
+                    }}>
+                    {item.data}
+                  </Text>
+                );
+              }
+            }}>
+            <View style={{marginHorizontal: 25, marginBottom: 10}}></View>
+          </FlatList>
         </View>
       </View>
     </>
