@@ -1,14 +1,9 @@
 import constitucional from '../images/constitucional.png';
 import direitoTrabalho from '../images/trabalho1.png';
-import estagio from '../images/trabalho.png';
 import consumidor from '../images/consumidor.png';
-import curiosidades from '../images/curiosidades.png';
-import aprendiz from '../images/aprendiz.png';
-import eca from '../images/eca.png';
 import familia from '../images/familia.png';
 import penal from '../images/penal.png';
-import previdencaiario from '../images/previdencario.png';
-import sobre from '../images/curiosidades.png';
+import previdenciario from '../images/previdencario.png';
 
 export default [
   {
@@ -1188,7 +1183,7 @@ export default [
   {
     name: 'Direito Previdenciário',
     type: 'topic',
-    icon: previdencaiario,
+    icon: previdenciario,
     content: [
       {
         type: 'paragraph',
