@@ -20,18 +20,8 @@ export default [
       {
         type: 'paragraph',
         data:
-          '• Ramo do Direito que estuda os princípios e nas normas fundamentais do Estado. Seu objeto de estudo é a Constituição, também chamada de Carta Magna, Lei Suprema, Lei Maior. Encontram-se na Constituição de um Estado, os direitos, garantias e deveres dos cidadãos deste país. Além disso, a Constituição estabelece a estrutura do Estado, a divisão dos poderes (Executivo, Legislativo e Judiciário), direitos políticos, diretrizes econômicas, educacionais, eleitorais, para saúde, etc.',
+          '• Ramo do Direito que estuda os princípios e nas normas fundamentais do Estado. Seu objeto de estudo é a Constituição, também chamada de Carta Magna, Lei Suprema, Lei Maior. Encontram-se na Constituição de um Estado, os direitos, garantias e deveres dos cidadãos deste país. Além disso, a Constituição estabelece a estrutura do Estado, a divisão dos poderes (Executivo, Legislativo e Judiciário), direitos políticos, diretrizes econômicas, educacionais, eleitorais, para saúde, etc.\n• Constituição da República Federativa do Brasil de 1988: promulgada em 5 de outubro de 1988\n• Está dividida em Títulos, Capítulos, Seções, Subseções.\n• Sua organização:',
       },
-      {
-        type: 'paragraph',
-        data:
-          '• Constituição da República Federativa do Brasil de 1988: promulgada em 5 de outubro de 1988',
-      },
-      {
-        type: 'paragraph',
-        data: '• Está dividida em Títulos, Capítulos, Seções, Subseções.',
-      },
-      {type: 'paragraph', data: '• Sua organização:'},
       {
         type: 'title',
         data: 'Título I: Dos Princípios Fundamentais (1º ao 4º artigo);',
@@ -44,76 +34,47 @@ export default [
       {
         type: 'item',
         data:
-          'Capítulo I: Dos Direitos e Deveres Individuais e Coletivos (artigo 5º)',
+          'Capítulo I: Dos Direitos e Deveres Individuais e Coletivos (artigo 5º)\nCapítulo II: Dos Direitos Sociais (6º ao artigo 11)\nCapítulo III: Da Nacionalidade (12 ao 13)\nCapítulo IV: Dos Direitos Políticos (14 ao 16)\nCapítulo V: Dos Partidos Políticos (17)',
       },
-      {
-        type: 'item',
-        data: 'Capítulo II: Dos Direitos Sociais (6º ao artigo 11)',
-      },
-      {type: 'item', data: 'Capítulo III: Da Nacionalidade (12 ao 13)'},
-      {
-        type: 'item',
-        data: 'Capítulo IV: Dos Direitos Políticos (14 ao 16)',
-      },
-      {type: 'item', data: 'Capítulo V: Dos Partidos Políticos (17)'},
       {
         type: 'title',
         data: 'Título III: Da Organização do Estado (18 ao 43):',
       },
       {
         type: 'item',
-        data: 'Capítulo I: Da Organização Político-Administrativa (18 ao 19)',
+        data:
+          'Capítulo I: Da Organização Político-Administrativa (18 ao 19)\nCapítulo II: Da União (20 ao 24)\nCapítulo III: Dos Estados Federados (25 ao 28)\nCapítulo IV: Dos Municípios (29 ao 31)\nCapítulo V: Do Distrito Federal e dos Territórios (32 ao 33):',
       },
-      {type: 'item', data: 'Capítulo II: Da União (20 ao 24)'},
-      {
-        type: 'item',
-        data: 'Capítulo III: Dos Estados Federados (25 ao 28)',
-      },
-      {type: 'item', data: 'Capítulo IV: Dos Municípios (29 ao 31)'},
-      {
-        type: 'item',
-        data: 'Capítulo V: Do Distrito Federal e dos Territórios (32 ao 33):',
-      },
-      {type: 'subItem', data: 'Seção I: Do Distrito Federal (32)'},
-      {type: 'subItem', data: 'Seção II: Dos Territórios (33)'},
-      {type: 'item', data: 'Capítulo VI: Da Intervenção (34 ao 36)'},
-      {
-        type: 'item',
-        data: 'Capítulo VII: Da Administração Pública (37 ao 43)',
-      },
-      {type: 'subItem', data: 'Seção I: Disposições Gerais (37 ao 38)'},
-      {type: 'subItem', data: 'Seção II: Dos Servidores Públicos (39 ao 41)'},
       {
         type: 'subItem',
         data:
-          'Seção III: Dos Militares dos Estados, do Distrito Federal e dos Territórios (42)',
+          'Seção I: Do Distrito Federal (32)\nSeção II: Dos Territórios (33)',
       },
-      {type: 'subItem', data: 'Seção IV: Das Regiões (43)'},
+      {
+        type: 'item',
+        data:
+          'Capítulo VI: Da Intervenção (34 ao 36)\nCapítulo VII: Da Administração Pública (37 ao 43)',
+      },
+      {
+        type: 'subItem',
+        data:
+          'Seção I: Disposições Gerais (37 ao 38)\nSeção II: Dos Servidores Públicos (39 ao 41)\nSeção III: Dos Militares dos Estados, do Distrito Federal e dos Territórios (42)\nSeção IV: Das Regiões (43)',
+      },
       {
         type: 'title',
         data: 'Título IV: Da Organização dos Poderes (44 ao 135)',
       },
       {type: 'item', data: 'Capítulo I: Do Poder Legislativo (44 ao 75)'},
-      {type: 'subItem', data: 'Seção I: Do Congresso Nacional (44 ao 47)'},
       {
         type: 'subItem',
-        data: 'Seção II: Das Atribuições do Congresso Nacional (48 ao 50)',
+        data:
+          'Seção I: Do Congresso Nacional (44 ao 47)\nSeção II: Das Atribuições do Congresso Nacional (48 ao 50)\nSeção III: Da Câmara dos Deputados (51)\nSeção IV: Do Senado Federal (52)\nSeção V: Dos Deputados e Senadores (53 ao 56)\nSeção VI: Das Reuniões (57)\nSeção VII: Das Comissões (58)\nSeção VIII: Do Processo Legislativo (59 ao 69)',
       },
-      {type: 'subItem', data: 'Seção III: Da Câmara dos Deputados (51)'},
-      {type: 'subItem', data: 'Seção IV: Do Senado Federal (52)'},
       {
-        type: 'subItem',
-        data: 'Seção V: Dos Deputados e Senadores (53 ao 56)',
+        type: 'subSubItem',
+        data:
+          'Subseção I: Disposição Geral (59)\nSubseção II: Da Emenda à Constituição (60)\nSubseção III: Das Leis (61 ao 69)',
       },
-      {type: 'subItem', data: 'Seção VI: Das Reuniões (57)'},
-      {type: 'subItem', data: 'Seção VII: Das Comissões (58)'},
-      {
-        type: 'subItem',
-        data: 'Seção VIII: Do Processo Legislativo (59 ao 69)',
-      },
-      {type: 'subSubItem', data: 'Subseção I: Disposição Geral (59)'},
-      {type: 'subSubItem', data: 'Subseção II: Da Emenda à Constituição (60)'},
-      {type: 'subSubItem', data: 'Subseção III: Das Leis (61 ao 69)'},
       {
         type: 'subItem',
         data:
@@ -123,74 +84,30 @@ export default [
       {
         type: 'subItem',
         data:
-          'Seção I - Do Presidente e do Vice-Presidente da República (76 a 83)',
-      },
-      {
-        type: 'subItem',
-        data: 'Seção II - Das Atribuições do Presidente da República (84)',
-      },
-      {
-        type: 'subItem',
-        data:
-          'Seção III - Da Responsabilidade do Presidente da República (85 e 86)',
-      },
-      {type: 'subItem', data: 'Seção IV - Dos Ministros de Estado (87 a 88)'},
-      {
-        type: 'subItem',
-        data:
-          'Seção V - Do Conselho da República e do Conselho de Defesa Nacional (89 a 91)',
+          'Seção I - Do Presidente e do Vice-Presidente da República (76 a 83)\nSeção II - Das Atribuições do Presidente da República (84)\nSeção III - Da Responsabilidade do Presidente da República (85 e 86)\nSeção IV - Dos Ministros de Estado (87 a 88)\nSeção V - Do Conselho da República e do Conselho de Defesa Nacional (89 a 91)',
       },
       {
         type: 'subSubItem',
-        data: 'Subseção I - Do Conselho da República (89 a 90)',
-      },
-      {
-        type: 'subSubItem',
-        data: 'Subseção II - Do Conselho de Defesa Nacional (91)',
+        data:
+          'Subseção I - Do Conselho da República (89 a 90)\nSubseção II - Do Conselho de Defesa Nacional (91)',
       },
       {
         type: 'item',
         data: 'Capítulo III - Do Poder Judiciário (92 a 126)',
       },
-      {type: 'subItem', data: 'Seção I - Disposições Gerais (92 a 100)'},
-      {
-        type: 'subItem',
-        data: 'Seção II - Do Supremo Tribunal Federal (101 a 103)',
-      },
-      {
-        type: 'subItem',
-        data: 'Seção III - Do Superior Tribunal de Justiça (104 e 105)',
-      },
       {
         type: 'subItem',
         data:
-          'Seção IV - Dos Tribunais Regionais Federais e dos Juízes Federais (106 a 110)',
-      },
-      {
-        type: 'subItem',
-        data: 'Seção V - Dos Tribunais e Juízes do Trabalho (111 a 117)',
-      },
-      {
-        type: 'subItem',
-        data: 'Seção VI - Dos Tribunais e Juízes Eleitorais (118 a 121)',
-      },
-      {
-        type: 'subItem',
-        data: 'Seção VII - Dos Tribunais e Juízes Militares (122 a 124)',
-      },
-      {
-        type: 'subItem',
-        data: 'Seção VIII - Dos Tribunais e Juízes dos Estados (125 e 126)',
+          'Seção I - Disposições Gerais (92 a 100)\nSeção II - Do Supremo Tribunal Federal (101 a 103)\nSeção III - Do Superior Tribunal de Justiça (104 e 105)\nSeção IV - Dos Tribunais Regionais Federais e dos Juízes Federais (106 a 110)\nSeção V - Dos Tribunais e Juízes do Trabalho (111 a 117)\nSeção VI - Dos Tribunais e Juízes Eleitorais (118 a 121)\nSeção VII - Dos Tribunais e Juízes Militares (122 a 124)\nSeção VIII - Dos Tribunais e Juízes dos Estados (125 e 126)',
       },
       {
         type: 'item',
         data: 'Capítulo IV - Das Funções Essenciais À Justiça (127 a 135)',
       },
-      {type: 'subItem', data: 'Seção I - Do Ministério Público (127 a 130)'},
-      {type: 'subItem', data: 'Seção II - Da Advocacia Pública (131 e 132)'},
       {
         type: 'subItem',
-        data: 'Seção III - Da Advocacia e da Defensória Pública (133 a 135)',
+        data:
+          'Seção I - Do Ministério Público (127 a 130)\nSeção II - Da Advocacia Pública (131 e 132)\nSeção III - Da Advocacia e da Defensória Pública (133 a 135)',
       },
       {
         type: 'title',
@@ -202,11 +119,16 @@ export default [
         data:
           'Capítulo I - Do Estado de Defesa e do Estado De Sítio (136 a 141)',
       },
-      {type: 'subItem', data: 'Seção I - Do Estado de Defesa (136)'},
-      {type: 'subItem', data: 'Seção II - Do Estado de Sítio (137 a 139)'},
-      {type: 'subItem', data: 'Seção III - Disposições Gerais (140 e 141)'},
-      {type: 'item', data: 'Capítulo II- Das Forças Armadas (142 a 143)'},
-      {type: 'item', data: 'Capítulo III - Da Segurança Pública (144)'},
+      {
+        type: 'subItem',
+        data:
+          'Seção I - Do Estado de Defesa (136)\nSeção II - Do Estado de Sítio (137 a 139)\nSeção III - Disposições Gerais (140 e 141)',
+      },
+      {
+        type: 'item',
+        data:
+          'Capítulo II- Das Forças Armadas (142 a 143)\nCapítulo III - Da Segurança Pública (144)',
+      },
       {
         type: 'title',
         data: 'Título VI - Da Tributação e do Orçamento (145 a 169)',
@@ -215,30 +137,20 @@ export default [
         type: 'item',
         data: 'Capítulo I - Do Sistema Tributário Nacional (145 a 162)',
       },
-      {type: 'subItem', data: 'Seção I - Dos Princípios Gerais (145 a 149)'},
       {
         type: 'subItem',
-        data: 'Seção II - Das Limitações do Poder de Tributar (150 a 152)',
-      },
-      {
-        type: 'subItem',
-        data: 'Seção III - Dos Impostos da União (153 e 154)',
-      },
-      {
-        type: 'subItem',
-        data: 'Seção IV - Dos Impostos dos Estados e do Distrito Federal (155)',
-      },
-      {type: 'subItem', data: 'Seção V - Dos Impostos dos Municípios (156)'},
-      {
-        type: 'subItem',
-        data: 'Seção VI - Da Repartição das Receitas Tributárias (157 a 162)',
+        data:
+          'Seção I - Dos Princípios Gerais (145 a 149)\nSeção II - Das Limitações do Poder de Tributar (150 a 152)\nSeção III - Dos Impostos da União (153 e 154)\nSeção IV - Dos Impostos dos Estados e do Distrito Federal (155)\nSeção V - Dos Impostos dos Municípios (156)\nSeção VI - Da Repartição das Receitas Tributárias (157 a 162)',
       },
       {
         type: 'item',
         data: 'Capítulo II - Das Finanças Públicas (163 a 169)',
       },
-      {type: 'subItem', data: 'Seção I - Normas Gerais (163 e 164)'},
-      {type: 'subItem', data: 'Seção II - Dos Orçamentos (165 a 169)'},
+      {
+        type: 'subItem',
+        data:
+          'Seção I - Normas Gerais (163 e 164)\nSeção II - Dos Orçamentos (165 a 169)',
+      },
       {
         type: 'title',
         data: 'Título VII - Da Ordem Econômica E Financeira (170 a 192)',
@@ -246,50 +158,37 @@ export default [
       {
         type: 'item',
         data:
-          'Capítulo I - Dos Princípios Gerais Da Atividade Econômica (170 a 181)',
-      },
-      {type: 'item', data: 'Capítulo II - Da Política Urbana (182 e 183)'},
-      {
-        type: 'item',
-        data:
-          'Capítulo III - Da Política Agrícola e Fundiária e da Reforma Agrária (184 a 191)',
+          'Capítulo I - Dos Princípios Gerais Da Atividade Econômica (170 a 181)\nCapítulo II - Da Política Urbana (182 e 183)\nCapítulo III - Da Política Agrícola e Fundiária e da Reforma Agrária (184 a 191)',
       },
       {
         type: 'item',
         data: 'Capítulo IV - Do Sistema Financeiro Nacional (192)',
       },
       {type: 'title', data: 'Título VIII - Da Ordem Social (193 a 232)'},
-      {type: 'item', data: 'Capítulo I - Disposição Geral (Art. 193)'},
-      {type: 'item', data: 'Capítulo II - Da Seguridade Social'},
-      {type: 'subItem', data: 'Seção I - Disposições Gerais (194 e 195)'},
-      {type: 'subItem', data: 'Seção II - Da Saúde (196 a 200)'},
+      {
+        type: 'item',
+        data:
+          'Capítulo I - Disposição Geral (Art. 193)\nCapítulo II - Da Seguridade Social',
+      },
       {
         type: 'subItem',
-        data: 'Seção III - Da Previdência Social (201 e 202)',
+        data:
+          'Seção I - Disposições Gerais (194 e 195)\nSeção II - Da Saúde (196 a 200)\nSeção III - Da Previdência Social (201 e 202)\nSeção IV - Da Assistência Social (203 e 204)',
       },
-      {type: 'subItem', data: 'Seção IV - Da Assistência Social (203 e 204)'},
       {
         type: 'item',
         data: 'Capítulo III - Da Educação, Da Cultura E Do Desporto',
       },
-      {type: 'subItem', data: 'Seção I - Da Educação (205 a 214)'},
-      {type: 'subItem', data: 'Seção II - Da Cultura (215 e 216)'},
-      {type: 'subItem', data: 'Seção III - Do Desporto (217)'},
       {
-        type: 'item',
-        data: 'Capítulo IV - Da Ciência E Tecnologia (218 e 219)',
+        type: 'subItem',
+        data:
+          'Seção I - Da Educação (205 a 214)\nSeção II - Da Cultura (215 e 216)\nSeção III - Do Desporto (217)',
       },
-      {
-        type: 'item',
-        data: 'Capítulo V - Da Comunicação Social (220 a 224)',
-      },
-      {type: 'item', data: 'Capítulo VI - Do Meio Ambiente (225)'},
       {
         type: 'item',
         data:
-          'Capítulo VII - Da Família, da Criança, do Adolescente e do Idoso (226 a 230)',
+          'Capítulo IV - Da Ciência E Tecnologia (218 e 219)\nCapítulo V - Da Comunicação Social (220 a 224)\nCapítulo VI - Do Meio Ambiente (225)\nCapítulo VII - Da Família, da Criança, do Adolescente e do Idoso (226 a 230)\nCapítulo VIII - Dos Índios (231 e 232)',
       },
-      {type: 'item', data: 'Capítulo VIII - Dos Índios (231 e 232)'},
       {
         type: 'title',
         data: 'Título IX - Das Disposições Constitucionais Gerais (233 a 250)',
@@ -303,207 +202,36 @@ export default [
         data:
           '• Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos:',
       },
-      {type: 'paragraph', data: 'I - a soberania;'},
-      {type: 'paragraph', data: 'II - a cidadania;'},
-      {type: 'paragraph', data: 'III - a dignidade da pessoa humana;'},
       {
         type: 'paragraph',
         data:
-          'IV - os valores sociais do trabalho e da livre iniciativa;   (Vide Lei nº 13.874, de 2019)',
+          'I - a soberania;\nII - a cidadania;\nIII - a dignidade da pessoa humana;',
       },
-      {type: 'paragraph', data: 'V - o pluralismo político'},
       {
         type: 'paragraph',
         data:
-          'Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição.',
+          'IV - os valores sociais do trabalho e da livre iniciativa;   (Vide Lei nº 13.874, de 2019)\nV - o pluralismo político\nParágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição.',
       },
       {
         type: 'title',
         data:
-          '• Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.',
-      },
-      {
-        type: 'title',
-        data:
-          '• Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:',
-      },
-      {
-        type: 'paragraph',
-        data: 'I - construir uma sociedade livre, justa e solidária;',
-      },
-      {type: 'paragraph', data: 'II - garantir o desenvolvimento nacional;'},
-      {
-        type: 'paragraph',
-        data:
-          'III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;',
+          '• Art. 2º São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário.\n• Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil:',
       },
       {
         type: 'paragraph',
         data:
-          'IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.',
+          'I - construir uma sociedade livre, justa e solidária;\nII - garantir o desenvolvimento nacional;\nIII - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;\nIV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.',
       },
       {
         type: 'title',
         data:
           '• Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes:',
       },
-      {type: 'paragraph', data: 'Alguns incisos:'},
       {
         type: 'paragraph',
         data:
-          'I - homens e mulheres são iguais em direitos e obrigações, nos termos desta Constituição;',
+          'Alguns incisos:\nI - homens e mulheres são iguais em direitos e obrigações, nos termos desta Constituição;\nII- ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei;\nIV - é livre a manifestação do pensamento, sendo vedado o anonimato;\nV - é assegurado o direito de resposta, proporcional ao agravo, além da indenização por dano material, moral ou à imagem;\nVI - é inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias;\nX - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação;XI - a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial;XII - é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal;\nXXXIX - não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal;\nXLII - a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei;\nXLVII - não haverá penas:\na) de morte, salvo em caso de guerra declarada, nos termos do art. 84, XIX;\nb) de caráter perpétuo;\nc) de trabalhos forçados;\nd) de banimento;\ne) cruéis;\nL - às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação;\nLV - aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e ampla defesa, com os meios e recursos a ela inerentes;\nLVI - são inadmissíveis, no processo, as provas obtidas por meios ilícitos;\nLVII - ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória;\nLXI - ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente, salvo nos casos de transgressão militar ou crime propriamente militar, definidos em lei;\nLXII - a prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele indicada;\nLXIII - o preso será informado de seus direitos, entre os quais o de permanecer calado, sendo-lhe assegurada a assistência da família e de advogado;\nLXIV - o preso tem direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial;\nLXVIII - conceder-se-á habeas corpus sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder;\nLXIX - conceder-se-á mandado de segurança para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data , quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público;\nLXX - o mandado de segurança coletivo pode ser impetrado por:\na) partido político com representação no Congresso Nacional;\nb) organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros ou associados;\nLXXI - conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania;\na) para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público;\nb) para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo;\nLXXIII - qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência;\nLXXIV - o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos;\nLXXVI - são gratuitos para os reconhecidamente pobres, na forma da lei:\na) o registro civil de nascimento;\nb) a certidão de óbito;',
       },
-      {
-        type: 'paragraph',
-        data:
-          'II- ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'IV - é livre a manifestação do pensamento, sendo vedado o anonimato;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'V - é assegurado o direito de resposta, proporcional ao agravo, além da indenização por dano material, moral ou à imagem;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'VI - é inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'XI - a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'XII - é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'XXXIX - não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'XLII - a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei;',
-      },
-      {type: 'paragraph', data: 'XLVII - não haverá penas:'},
-      {
-        type: 'paragraph',
-        data:
-          'a) de morte, salvo em caso de guerra declarada, nos termos do art. 84, XIX;',
-      },
-      {type: 'paragraph', data: 'b) de caráter perpétuo;'},
-      {type: 'paragraph', data: 'c) de trabalhos forçados;'},
-      {type: 'paragraph', data: 'd) de banimento;'},
-      {type: 'paragraph', data: 'e) cruéis;'},
-      {
-        type: 'paragraph',
-        data:
-          'L - às presidiárias serão asseguradas condições para que possam permanecer com seus filhos durante o período de amamentação;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LV - aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e ampla defesa, com os meios e recursos a ela inerentes;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LVI - são inadmissíveis, no processo, as provas obtidas por meios ilícitos;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LVII - ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXI - ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente, salvo nos casos de transgressão militar ou crime propriamente militar, definidos em lei;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXII - a prisão de qualquer pessoa e o local onde se encontre serão comunicados imediatamente ao juiz competente e à família do preso ou à pessoa por ele indicada;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXIII - o preso será informado de seus direitos, entre os quais o de permanecer calado, sendo-lhe assegurada a assistência da família e de advogado;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXIV - o preso tem direito à identificação dos responsáveis por sua prisão ou por seu interrogatório policial;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXVIII - conceder-se-á habeas corpus sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXIX - conceder-se-á mandado de segurança para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data , quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público;',
-      },
-      {
-        type: 'paragraph',
-        data: 'LXX - o mandado de segurança coletivo pode ser impetrado por:',
-      },
-      {
-        type: 'paragraph',
-        data: 'a) partido político com representação no Congresso Nacional;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'b) organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros ou associados;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXXI - conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania;',
-      },
-      {type: 'paragraph', data: 'LXXII - conceder-se-á habeas data:'},
-      {
-        type: 'paragraph',
-        data:
-          'a) para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'b) para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXXIII - qualquer cidadão é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXXIV - o Estado prestará assistência jurídica integral e gratuita aos que comprovarem insuficiência de recursos;',
-      },
-      {
-        type: 'paragraph',
-        data:
-          'LXXVI - são gratuitos para os reconhecidamente pobres, na forma da lei:',
-      },
-      {type: 'paragraph', data: 'a) o registro civil de nascimento;'},
-      {type: 'paragraph', data: 'b) a certidão de óbito;'},
     ],
   },
   {
