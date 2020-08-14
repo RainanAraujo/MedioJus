@@ -69,6 +69,8 @@ export default Page = ({navigation, route}) => {
 
           <FlatList
             data={content}
+            initialNumToRender={50}
+            maxToRenderPerBatch={50}
             showsVerticalScrollIndicator={false}
             style={{flex: 1, paddingHorizontal: 25}}
             keyExtractor={({index}) => index}
