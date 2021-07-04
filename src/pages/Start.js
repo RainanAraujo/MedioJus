@@ -1,14 +1,7 @@
 import React, {useEffect} from 'react';
-import {
-  Text,
-  View,
-  TouchableOpacity,
-  StyleSheet,
-  StatusBar,
-  Image,
-} from 'react-native';
+import {View, StyleSheet, StatusBar} from 'react-native';
 import LottieView from 'lottie-react-native';
-import anim from '../../assets/animations/anim.json';
+import anim from '../assets/animations/anim.json';
 
 export default function Start({navigation}) {
   useEffect(() => {
@@ -19,7 +12,7 @@ export default function Start({navigation}) {
 
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#044BD9"></StatusBar>
+      <StatusBar barStyle="light-content" backgroundColor="#044BD9" />
       <View style={styles.container}>
         <LottieView resizeMode="contain" source={anim} autoPlay loop={false} />
       </View>

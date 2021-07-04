@@ -9,7 +9,7 @@ import {
   FlatList,
   Image,
 } from 'react-native';
-import homeImage from '../../assets/images/homeImage.png';
+import homeImage from '../assets/images/homeImage.png';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,

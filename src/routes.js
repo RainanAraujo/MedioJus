@@ -5,16 +5,13 @@ import Start from './pages/Start';
 import Menu from './pages/Menu';
 import Home from './pages/Home';
 import About from './pages/About';
-import logored from '../assets/images/namelogo.png';
+import logored from './assets/images/namelogo.png';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
-import {faInfoCircle, faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {createSharedElementStackNavigator} from 'react-navigation-shared-element';
-import {screensEnabled, enableScreens} from 'react-native-screens';
-import {HeaderBackButton} from '@react-navigation/stack';
+import {enableScreens} from 'react-native-screens';
 import Page from './pages/Page';
 import Icon from 'react-native-vector-icons/Feather';
 enableScreens();
@@ -43,14 +40,14 @@ export default function Routes() {
           name="Menu"
           component={Menu}
           options={({navigation}) => ({
-            headerTitleAlign: 'center',
+            headerTitleAlign: 'left',
             headerLeft: () => null,
             headerStyle: {
               backgroundColor: '#0455BF',
               height: hp('12%'),
               elevation: 0,
             },
-            headerTitleAlign: 'left',
+
             headerRight: () => (
               <TouchableOpacity onPress={() => navigation.navigate('About')}>
                 <Icon
@@ -85,14 +82,14 @@ export default function Routes() {
           }}
           options={({navigation, route}) => ({
             title: route.params.selected.name,
-            headerTitleAlign: 'center',
+            headerTitleAlign: 'left',
             headerTintColor: '#ffffff',
             headerStyle: {
               backgroundColor: '#0455BF',
               height: hp('11%'),
               elevation: 0,
             },
-            headerTitleAlign: 'left',
+
             headerLeft: () => (
               <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
                 <Icon
@@ -110,12 +107,11 @@ export default function Routes() {
           component={About}
           options={{
             title: 'Sobre',
-            headerTitleAlign: 'center',
+            headerTitleAlign: 'left',
             headerTintColor: '#ffffff',
             headerStyle: {
               backgroundColor: '#0455BF',
             },
-            headerTitleAlign: 'left',
           }}
         />
       </AppStack.Navigator>

@@ -11,12 +11,12 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import sobre from '../../assets/images/sobre.png';
+import sobre from '../assets/images/sobre.png';
 
 export default function About({navigation}) {
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#0455BF"></StatusBar>
+      <StatusBar barStyle="light-content" backgroundColor="#0455BF" />
       <ScrollView
         contentContainerStyle={styles.scrollView}
         showsVerticalScrollIndicator={false}>

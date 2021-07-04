@@ -15,7 +15,7 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import Icon from 'react-native-vector-icons/Feather';
-import data from '../../assets/data';
+import data from '../assets/data';
 import {SharedElement} from 'react-navigation-shared-element';
 
 export default function Menu({navigation}) {
@@ -32,25 +32,21 @@ export default function Menu({navigation}) {
               {data.map((item, index) => {
                 if (item.type == 'topic') {
                   return (
-                    <>
-                      <View key={index} style={styles.buttonOption}>
-                        <TouchableOpacity
-                          onPress={() =>
-                            navigation.navigate('Page', {
-                              selected: {...item, id: index},
-                            })
-                          }>
-                          <SharedElement
-                            id={`item.${index}.photo`}
-                            style={styles.imageView}>
-                            <Image source={item.icon} />
-                          </SharedElement>
-                          <Text style={styles.textButtonOption}>
-                            {item.name}
-                          </Text>
-                        </TouchableOpacity>
-                      </View>
-                    </>
+                    <View key={index} style={styles.buttonOption}>
+                      <TouchableOpacity
+                        onPress={() =>
+                          navigation.navigate('Page', {
+                            selected: {...item, id: index},
+                          })
+                        }>
+                        <SharedElement
+                          id={`item.${index}.photo`}
+                          style={styles.imageView}>
+                          <Image source={item.icon} />
+                        </SharedElement>
+                        <Text style={styles.textButtonOption}>{item.name}</Text>
+                      </TouchableOpacity>
+                    </View>
                   );
                 } else if (item.type == 'collection') {
                   return (
@@ -139,10 +135,7 @@ const styles = StyleSheet.create({
   textButtonOption: {
     color: '#79828B',
     textAlign: 'center',
-    color: '#79828B',
-    textAlign: 'center',
     fontSize: hp('1.8%'),
-    fontFamily: 'Roboto-Regular',
     fontFamily: 'Roboto-Regular',
     marginBottom: wp('3%'),
   },
