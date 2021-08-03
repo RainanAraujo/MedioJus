@@ -129,10 +129,10 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mediojus"
+        applicationId "com.app.mediojus"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2
+        versionCode 3
         versionName "1.0"
     }
     splits {
@@ -144,6 +144,15 @@ android {
         }
     }
     signingConfigs {
+  
+           release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword "123456789r"
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword "123456789r"
+            }
+        }
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'
@@ -152,15 +161,17 @@ android {
         }
     }
     buildTypes {
+    
         debug {
             signingConfig signingConfigs.debug
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
-            // see https://facebook.github.io/react-native/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            // see https://reactnative.dev/docs/signed-apk-android.
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
+            
         }
     }
 

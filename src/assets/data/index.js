@@ -623,7 +623,17 @@ export default [
           {
             type: 'paragraph',
             data:
-              'Torna obrigatória a manutenção de exemplar do CDC nos estabelecimentos comerciais e de prestação de serviços.\n• Consumidor: toda pessoa física ou jurídica que adquire ou utiliza produto como destinatário final.',
+              'Torna obrigatória a manutenção de exemplar do CDC nos estabelecimentos comerciais e de prestação de serviços.',
+          },
+        ],
+      },
+      {
+        title: 'Consumidor: ',
+        data: [
+          {
+            type: 'paragraph',
+            data:
+              'Toda pessoa física ou jurídica que adquire ou utiliza produto como destinatário final.',
           },
         ],
       },
@@ -632,8 +642,17 @@ export default [
         data: [
           {
             type: 'paragraph',
+            data: 'Aquele que fornece produto ou serviços aos consumidores. ',
+          },
+        ],
+      },
+      {
+        title: 'Objeto da relação consumerista',
+        data: [
+          {
+            type: 'paragraph',
             data:
-              'Aquele que fornece produto ou serviços aos consumidores.\nObjeto da relação consumerista: produto ou serviço. Produto é qualquer bem, móvel ou imóvel, material ou imaterial. Serviço é qualquer atividade fornecida no mercado de consumo, mediante remuneração, inclusive as de natureza bancária, financeira, de crédito e securitária, salvo as decorrentes das relações de caráter trabalhista.',
+              'Produto ou serviço. Produto é qualquer bem, móvel ou imóvel, material ou imaterial. Serviço é qualquer atividade fornecida no mercado de consumo, mediante remuneração, inclusive as de natureza bancária, financeira, de crédito e securitária, salvo as decorrentes das relações de caráter trabalhista.',
           },
         ],
       },
@@ -819,7 +838,17 @@ export default [
           {
             type: 'paragraph',
             data:
-              'No furto, não há violência ou ameaça contra a vítima, enquanto o roubo consiste na ocorrência de ameaça ou violência contra quem está sendo roubado. Exemplo: uma pessoa entra em uma loja de calçados, vê a vitrine aberta, pega um sapato e foge. No entanto, seria roubo se essa mesma pessoa entra na loja com uma pistola, ameaça os funcionários pega alguns sapatos e foge.\n- Calúnia: A calúnia consiste em acusar alguém publicamente de um crime.',
+              'No furto, não há violência ou ameaça contra a vítima, enquanto o roubo consiste na ocorrência de ameaça ou violência contra quem está sendo roubado. Exemplo: uma pessoa entra em uma loja de calçados, vê a vitrine aberta, pega um sapato e foge. No entanto, seria roubo se essa mesma pessoa entra na loja com uma pistola, ameaça os funcionários pega alguns sapatos e foge.',
+          },
+        ],
+      },
+      {
+        title: 'Crimes contra honra',
+        data: [
+          {
+            type: 'paragraph',
+            data:
+              '- Calúnia: A calúnia consiste em acusar alguém publicamente de um crime.',
           },
           {
             type: 'paragraph',
@@ -1054,11 +1083,11 @@ export default [
       },
       {
         title: 'Regime Geral de Previdência Social (RGPS)',
-        data: [],
-      },
-      {
-        title: 'Segurados Obrigatórios',
         data: [
+          {
+            type: 'paragraph',
+            data: '- Segurados Obrigatórios',
+          },
           {
             type: 'paragraph',
             data:

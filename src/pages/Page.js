@@ -128,7 +128,7 @@ export default Page = ({navigation, route}) => {
                 style={styles.linkButton}
                 onPress={() => Linking.openURL(link)}>
                 <Text style={{fontFamily: 'Roboto-Medium'}}>
-                  Documentação Oficial
+                  Link da legislação
                 </Text>
               </TouchableOpacity>
             )}
